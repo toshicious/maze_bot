@@ -1,0 +1,332 @@
+[0.000000] (-) TimerEvent: {}
+[0.000380] (-) JobUnselected: {'identifier': 'main'}
+[0.000473] (-) JobUnselected: {'identifier': 'sensor'}
+[0.000544] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.000608] (motor) JobStarted: {'identifier': 'motor'}
+[0.036186] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[0.036541] (motor) Command: {'cmd': ['/usr/bin/cmake', '/home/toshie/Desktop/project/src/motor', '-DCMAKE_INSTALL_PREFIX=/home/toshie/Desktop/project/install/motor'], 'cwd': '/home/toshie/Desktop/project/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'toshie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/toshie'), ('OLDPWD', '/home/toshie/Desktop/project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1382'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toshie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'toshie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/batoonie:@/tmp/.ICE-unix/1382,unix/batoonie:/tmp/.ICE-unix/1382'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/806b4192_af2f_4f52_ba6d_a1e5cddc2a86'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BNMKY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/toshie/Desktop/project/build/motor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.095538] (-) TimerEvent: {}
+[0.104381] (motor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.196142] (-) TimerEvent: {}
+[0.298049] (-) TimerEvent: {}
+[0.398699] (-) TimerEvent: {}
+[0.500547] (-) TimerEvent: {}
+[0.523013] (motor) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.589371] (motor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.595152] (motor) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.600685] (-) TimerEvent: {}
+[0.606990] (motor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.630832] (motor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.657684] (motor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701471] (-) TimerEvent: {}
+[0.803654] (-) TimerEvent: {}
+[0.807373] (motor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.812222] (motor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.907906] (-) TimerEvent: {}
+[1.008412] (-) TimerEvent: {}
+[1.106892] (motor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.108557] (-) TimerEvent: {}
+[1.211377] (-) TimerEvent: {}
+[1.313944] (-) TimerEvent: {}
+[1.417704] (-) TimerEvent: {}
+[1.480396] (motor) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.520574] (-) TimerEvent: {}
+[1.621975] (-) TimerEvent: {}
+[1.723012] (-) TimerEvent: {}
+[1.776518] (motor) StdoutLine: {'line': b'-- Generating done\n'}
+[1.779054] (motor) StdoutLine: {'line': b'-- Build files have been written to: /home/toshie/Desktop/project/build/motor\n'}
+[1.808677] (motor) CommandEnded: {'returncode': 0}
+[1.810678] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[1.811715] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toshie/Desktop/project/build/motor', '--', '-j2', '-l2'], 'cwd': '/home/toshie/Desktop/project/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'toshie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/toshie'), ('OLDPWD', '/home/toshie/Desktop/project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1382'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toshie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'toshie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/batoonie:@/tmp/.ICE-unix/1382,unix/batoonie:/tmp/.ICE-unix/1382'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/806b4192_af2f_4f52_ba6d_a1e5cddc2a86'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BNMKY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/toshie/Desktop/project/build/motor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.823123] (-) TimerEvent: {}
+[1.923913] (-) TimerEvent: {}
+[2.004783] (motor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o\x1b[0m\n'}
+[2.025547] (-) TimerEvent: {}
+[2.126675] (-) TimerEvent: {}
+[2.228871] (-) TimerEvent: {}
+[2.330914] (-) TimerEvent: {}
+[2.432254] (-) TimerEvent: {}
+[2.532826] (-) TimerEvent: {}
+[2.642214] (-) TimerEvent: {}
+[2.742738] (-) TimerEvent: {}
+[2.843626] (-) TimerEvent: {}
+[2.944765] (-) TimerEvent: {}
+[3.047897] (-) TimerEvent: {}
+[3.148907] (-) TimerEvent: {}
+[3.250430] (-) TimerEvent: {}
+[3.352323] (-) TimerEvent: {}
+[3.452892] (-) TimerEvent: {}
+[3.554349] (-) TimerEvent: {}
+[3.656229] (-) TimerEvent: {}
+[3.756860] (-) TimerEvent: {}
+[3.858998] (-) TimerEvent: {}
+[3.961360] (-) TimerEvent: {}
+[4.062518] (-) TimerEvent: {}
+[4.164962] (-) TimerEvent: {}
+[4.266902] (-) TimerEvent: {}
+[4.369580] (-) TimerEvent: {}
+[4.471424] (-) TimerEvent: {}
+[4.573646] (-) TimerEvent: {}
+[4.674517] (-) TimerEvent: {}
+[4.776468] (-) TimerEvent: {}
+[4.877061] (-) TimerEvent: {}
+[4.977566] (-) TimerEvent: {}
+[5.079895] (-) TimerEvent: {}
+[5.181935] (-) TimerEvent: {}
+[5.282677] (-) TimerEvent: {}
+[5.384641] (-) TimerEvent: {}
+[5.485935] (-) TimerEvent: {}
+[5.586484] (-) TimerEvent: {}
+[5.689312] (-) TimerEvent: {}
+[5.790234] (-) TimerEvent: {}
+[5.890924] (-) TimerEvent: {}
+[5.993066] (-) TimerEvent: {}
+[6.093739] (-) TimerEvent: {}
+[6.197093] (-) TimerEvent: {}
+[6.298099] (-) TimerEvent: {}
+[6.398628] (-) TimerEvent: {}
+[6.499453] (-) TimerEvent: {}
+[6.600060] (-) TimerEvent: {}
+[6.701025] (-) TimerEvent: {}
+[6.801588] (-) TimerEvent: {}
+[6.902714] (-) TimerEvent: {}
+[7.003832] (-) TimerEvent: {}
+[7.104337] (-) TimerEvent: {}
+[7.204876] (-) TimerEvent: {}
+[7.305394] (-) TimerEvent: {}
+[7.407858] (-) TimerEvent: {}
+[7.508355] (-) TimerEvent: {}
+[7.608885] (-) TimerEvent: {}
+[7.709416] (-) TimerEvent: {}
+[7.809981] (-) TimerEvent: {}
+[7.912617] (-) TimerEvent: {}
+[8.014208] (-) TimerEvent: {}
+[8.115914] (-) TimerEvent: {}
+[8.219049] (-) TimerEvent: {}
+[8.319568] (-) TimerEvent: {}
+[8.421887] (-) TimerEvent: {}
+[8.523966] (-) TimerEvent: {}
+[8.626236] (-) TimerEvent: {}
+[8.727954] (-) TimerEvent: {}
+[8.830156] (-) TimerEvent: {}
+[8.930704] (-) TimerEvent: {}
+[9.031268] (-) TimerEvent: {}
+[9.131845] (-) TimerEvent: {}
+[9.232400] (-) TimerEvent: {}
+[9.332987] (-) TimerEvent: {}
+[9.434095] (-) TimerEvent: {}
+[9.534636] (-) TimerEvent: {}
+[9.635235] (-) TimerEvent: {}
+[9.735806] (-) TimerEvent: {}
+[9.836356] (-) TimerEvent: {}
+[9.937964] (-) TimerEvent: {}
+[10.041834] (-) TimerEvent: {}
+[10.143970] (-) TimerEvent: {}
+[10.244779] (-) TimerEvent: {}
+[10.347080] (-) TimerEvent: {}
+[10.448223] (-) TimerEvent: {}
+[10.551268] (-) TimerEvent: {}
+[10.651837] (-) TimerEvent: {}
+[10.752384] (-) TimerEvent: {}
+[10.852919] (-) TimerEvent: {}
+[10.954948] (-) TimerEvent: {}
+[11.056438] (-) TimerEvent: {}
+[11.156994] (-) TimerEvent: {}
+[11.257522] (-) TimerEvent: {}
+[11.358089] (-) TimerEvent: {}
+[11.459157] (-) TimerEvent: {}
+[11.559692] (-) TimerEvent: {}
+[11.660372] (-) TimerEvent: {}
+[11.760945] (-) TimerEvent: {}
+[11.862141] (-) TimerEvent: {}
+[11.963179] (-) TimerEvent: {}
+[12.063713] (-) TimerEvent: {}
+[12.164247] (-) TimerEvent: {}
+[12.264798] (-) TimerEvent: {}
+[12.365372] (-) TimerEvent: {}
+[12.466504] (-) TimerEvent: {}
+[12.567049] (-) TimerEvent: {}
+[12.667597] (-) TimerEvent: {}
+[12.768908] (-) TimerEvent: {}
+[12.869417] (-) TimerEvent: {}
+[12.969981] (-) TimerEvent: {}
+[13.070512] (-) TimerEvent: {}
+[13.171591] (-) TimerEvent: {}
+[13.272152] (-) TimerEvent: {}
+[13.372698] (-) TimerEvent: {}
+[13.473826] (-) TimerEvent: {}
+[13.574322] (-) TimerEvent: {}
+[13.674854] (-) TimerEvent: {}
+[13.775539] (-) TimerEvent: {}
+[13.876065] (-) TimerEvent: {}
+[13.976574] (-) TimerEvent: {}
+[14.077413] (-) TimerEvent: {}
+[14.177963] (-) TimerEvent: {}
+[14.279240] (-) TimerEvent: {}
+[14.381856] (-) TimerEvent: {}
+[14.482399] (-) TimerEvent: {}
+[14.583520] (-) TimerEvent: {}
+[14.684050] (-) TimerEvent: {}
+[14.785205] (-) TimerEvent: {}
+[14.885730] (-) TimerEvent: {}
+[14.986287] (-) TimerEvent: {}
+[15.087483] (-) TimerEvent: {}
+[15.188518] (-) TimerEvent: {}
+[15.289028] (-) TimerEvent: {}
+[15.390232] (-) TimerEvent: {}
+[15.493871] (-) TimerEvent: {}
+[15.596449] (-) TimerEvent: {}
+[15.697426] (-) TimerEvent: {}
+[15.799334] (-) TimerEvent: {}
+[15.899901] (-) TimerEvent: {}
+[16.000504] (-) TimerEvent: {}
+[16.101612] (-) TimerEvent: {}
+[16.202682] (-) TimerEvent: {}
+[16.303224] (-) TimerEvent: {}
+[16.404068] (-) TimerEvent: {}
+[16.504627] (-) TimerEvent: {}
+[16.605208] (-) TimerEvent: {}
+[16.705734] (-) TimerEvent: {}
+[16.806909] (-) TimerEvent: {}
+[16.907402] (-) TimerEvent: {}
+[17.007977] (-) TimerEvent: {}
+[17.108519] (-) TimerEvent: {}
+[17.209050] (-) TimerEvent: {}
+[17.309594] (-) TimerEvent: {}
+[17.410672] (-) TimerEvent: {}
+[17.511237] (-) TimerEvent: {}
+[17.611804] (-) TimerEvent: {}
+[17.712325] (-) TimerEvent: {}
+[17.812875] (-) TimerEvent: {}
+[17.913439] (-) TimerEvent: {}
+[18.013978] (-) TimerEvent: {}
+[18.114540] (-) TimerEvent: {}
+[18.215127] (-) TimerEvent: {}
+[18.315686] (-) TimerEvent: {}
+[18.416244] (-) TimerEvent: {}
+[18.516838] (-) TimerEvent: {}
+[18.617946] (-) TimerEvent: {}
+[18.718455] (-) TimerEvent: {}
+[18.819591] (-) TimerEvent: {}
+[18.920170] (-) TimerEvent: {}
+[19.020688] (-) TimerEvent: {}
+[19.122629] (-) TimerEvent: {}
+[19.223160] (-) TimerEvent: {}
+[19.323718] (-) TimerEvent: {}
+[19.424286] (-) TimerEvent: {}
+[19.524818] (-) TimerEvent: {}
+[19.625362] (-) TimerEvent: {}
+[19.725899] (-) TimerEvent: {}
+[19.827049] (-) TimerEvent: {}
+[19.927590] (-) TimerEvent: {}
+[20.028155] (-) TimerEvent: {}
+[20.128683] (-) TimerEvent: {}
+[20.229234] (-) TimerEvent: {}
+[20.329801] (-) TimerEvent: {}
+[20.430315] (-) TimerEvent: {}
+[20.530857] (-) TimerEvent: {}
+[20.631374] (-) TimerEvent: {}
+[20.731893] (-) TimerEvent: {}
+[20.833029] (-) TimerEvent: {}
+[20.933564] (-) TimerEvent: {}
+[21.034599] (-) TimerEvent: {}
+[21.135153] (-) TimerEvent: {}
+[21.235845] (-) TimerEvent: {}
+[21.336933] (-) TimerEvent: {}
+[21.437463] (-) TimerEvent: {}
+[21.538010] (-) TimerEvent: {}
+[21.639100] (-) TimerEvent: {}
+[21.739638] (-) TimerEvent: {}
+[21.840208] (-) TimerEvent: {}
+[21.940732] (-) TimerEvent: {}
+[22.041301] (-) TimerEvent: {}
+[22.141862] (-) TimerEvent: {}
+[22.242391] (-) TimerEvent: {}
+[22.342915] (-) TimerEvent: {}
+[22.443457] (-) TimerEvent: {}
+[22.544013] (-) TimerEvent: {}
+[22.644539] (-) TimerEvent: {}
+[22.745104] (-) TimerEvent: {}
+[22.845620] (-) TimerEvent: {}
+[22.946189] (-) TimerEvent: {}
+[23.046710] (-) TimerEvent: {}
+[23.147267] (-) TimerEvent: {}
+[23.247853] (-) TimerEvent: {}
+[23.348399] (-) TimerEvent: {}
+[23.449526] (-) TimerEvent: {}
+[23.550289] (-) TimerEvent: {}
+[23.651338] (-) TimerEvent: {}
+[23.752179] (-) TimerEvent: {}
+[23.852684] (-) TimerEvent: {}
+[23.953217] (-) TimerEvent: {}
+[24.053727] (-) TimerEvent: {}
+[24.155507] (-) TimerEvent: {}
+[24.256050] (-) TimerEvent: {}
+[24.356564] (-) TimerEvent: {}
+[24.457135] (-) TimerEvent: {}
+[24.557799] (-) TimerEvent: {}
+[24.658728] (-) TimerEvent: {}
+[24.759344] (-) TimerEvent: {}
+[24.860625] (-) TimerEvent: {}
+[24.961190] (-) TimerEvent: {}
+[25.061941] (-) TimerEvent: {}
+[25.163896] (-) TimerEvent: {}
+[25.264485] (-) TimerEvent: {}
+[25.365060] (-) TimerEvent: {}
+[25.465734] (-) TimerEvent: {}
+[25.566582] (-) TimerEvent: {}
+[25.667314] (-) TimerEvent: {}
+[25.768196] (-) TimerEvent: {}
+[25.869099] (-) TimerEvent: {}
+[25.969815] (-) TimerEvent: {}
+[26.070639] (-) TimerEvent: {}
+[26.171515] (-) TimerEvent: {}
+[26.272388] (-) TimerEvent: {}
+[26.373322] (-) TimerEvent: {}
+[26.474062] (-) TimerEvent: {}
+[26.555557] (motor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[26.574503] (-) TimerEvent: {}
+[26.675162] (-) TimerEvent: {}
+[26.775883] (-) TimerEvent: {}
+[26.876552] (-) TimerEvent: {}
+[26.977338] (-) TimerEvent: {}
+[27.078046] (-) TimerEvent: {}
+[27.178615] (-) TimerEvent: {}
+[27.279216] (-) TimerEvent: {}
+[27.379695] (-) TimerEvent: {}
+[27.480178] (-) TimerEvent: {}
+[27.581862] (-) TimerEvent: {}
+[27.684185] (-) TimerEvent: {}
+[27.727461] (motor) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[27.784348] (-) TimerEvent: {}
+[27.885847] (-) TimerEvent: {}
+[27.892574] (motor) CommandEnded: {'returncode': 0}
+[27.952033] (motor) JobProgress: {'identifier': 'motor', 'progress': 'install'}
+[27.986172] (motor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/toshie/Desktop/project/build/motor'], 'cwd': '/home/toshie/Desktop/project/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'toshie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/toshie'), ('OLDPWD', '/home/toshie/Desktop/project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1382'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toshie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'toshie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/batoonie:@/tmp/.ICE-unix/1382,unix/batoonie:/tmp/.ICE-unix/1382'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/806b4192_af2f_4f52_ba6d_a1e5cddc2a86'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BNMKY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/toshie/Desktop/project/build/motor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[27.991479] (-) TimerEvent: {}
+[28.013276] (motor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.014895] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/lib/motor/listener\n'}
+[28.026377] (motor) StdoutLine: {'line': b'-- Set runtime path of "/home/toshie/Desktop/project/install/motor/lib/motor/listener" to ""\n'}
+[28.028238] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/ament_index/resource_index/package_run_dependencies/motor\n'}
+[28.031359] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/ament_index/resource_index/parent_prefix_path/motor\n'}
+[28.031804] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/motor/environment/ament_prefix_path.sh\n'}
+[28.032140] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/motor/environment/ament_prefix_path.dsv\n'}
+[28.036628] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/motor/environment/path.sh\n'}
+[28.037060] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/motor/environment/path.dsv\n'}
+[28.037324] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/motor/local_setup.bash\n'}
+[28.037539] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/motor/local_setup.sh\n'}
+[28.037739] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/motor/local_setup.zsh\n'}
+[28.042087] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/motor/local_setup.dsv\n'}
+[28.042398] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/motor/package.dsv\n'}
+[28.043848] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/ament_index/resource_index/packages/motor\n'}
+[28.044970] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/motor/cmake/motorConfig.cmake\n'}
+[28.050111] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/motor/cmake/motorConfig-version.cmake\n'}
+[28.050439] (motor) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/project/install/motor/share/motor/package.xml\n'}
+[28.056480] (motor) CommandEnded: {'returncode': 0}
+[28.092550] (-) TimerEvent: {}
+[28.193297] (-) TimerEvent: {}
+[28.294030] (-) TimerEvent: {}
+[28.394923] (-) TimerEvent: {}
+[28.495802] (-) TimerEvent: {}
+[28.592632] (motor) JobEnded: {'identifier': 'motor', 'rc': 0}
+[28.595305] (-) EventReactorShutdown: {}

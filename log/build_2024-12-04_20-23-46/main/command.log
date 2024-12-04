@@ -1,0 +1,6 @@
+Invoking command in '/home/toshie/Desktop/project/build/main': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/toshie/Desktop/project/src/main -DCMAKE_INSTALL_PREFIX=/home/toshie/Desktop/project/install/main
+Invoked command in '/home/toshie/Desktop/project/build/main' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/toshie/Desktop/project/src/main -DCMAKE_INSTALL_PREFIX=/home/toshie/Desktop/project/install/main
+Invoking command in '/home/toshie/Desktop/project/build/main': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/project/build/main -- -j2 -l2
+Invoked command in '/home/toshie/Desktop/project/build/main' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/project/build/main -- -j2 -l2
+Invoking command in '/home/toshie/Desktop/project/build/main': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/toshie/Desktop/project/build/main
+Invoked command in '/home/toshie/Desktop/project/build/main' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/toshie/Desktop/project/build/main

@@ -1,0 +1,2 @@
+Invoking command in '/home/toshie/Desktop/project/build/motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/project/build/motor -- -j2 -l2
+Invoked command in '/home/toshie/Desktop/project/build/motor' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/project/build/motor -- -j2 -l2

@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.001080] (-) JobUnselected: {'identifier': 'main'}
+[0.001163] (-) JobUnselected: {'identifier': 'sensor'}
+[0.001208] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.001251] (motor) JobStarted: {'identifier': 'motor'}
+[0.016429] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[0.016964] (motor) Command: {'cmd': ['/usr/bin/cmake', '/home/toshie/Desktop/project/src/motor', '-DCMAKE_INSTALL_PREFIX=/home/toshie/Desktop/project/install/motor'], 'cwd': '/home/toshie/Desktop/project/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'toshie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/toshie'), ('OLDPWD', '/home/toshie/Desktop/project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1382'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toshie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'toshie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/batoonie:@/tmp/.ICE-unix/1382,unix/batoonie:/tmp/.ICE-unix/1382'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/806b4192_af2f_4f52_ba6d_a1e5cddc2a86'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BNMKY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/toshie/Desktop/project/build/motor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099687] (-) TimerEvent: {}
+[0.200654] (-) TimerEvent: {}
+[0.301382] (-) TimerEvent: {}
+[0.402297] (-) TimerEvent: {}
+[0.503156] (-) TimerEvent: {}
+[0.604017] (-) TimerEvent: {}
+[0.704884] (-) TimerEvent: {}
+[0.805532] (-) TimerEvent: {}
+[0.906157] (-) TimerEvent: {}
+[1.006929] (-) TimerEvent: {}
+[1.107599] (-) TimerEvent: {}
+[1.208301] (-) TimerEvent: {}
+[1.264342] (motor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.308448] (-) TimerEvent: {}
+[1.409143] (-) TimerEvent: {}
+[1.510021] (-) TimerEvent: {}
+[1.674035] (motor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.674629] (-) TimerEvent: {}
+[1.696984] (motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.775041] (-) TimerEvent: {}
+[1.875937] (-) TimerEvent: {}
+[1.976833] (-) TimerEvent: {}
+[2.077708] (-) TimerEvent: {}
+[2.178446] (-) TimerEvent: {}
+[2.279331] (-) TimerEvent: {}
+[2.380222] (-) TimerEvent: {}
+[2.481062] (-) TimerEvent: {}
+[2.581925] (-) TimerEvent: {}
+[2.683196] (-) TimerEvent: {}
+[2.769298] (motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.783324] (-) TimerEvent: {}
+[2.792597] (motor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.794022] (motor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.796810] (motor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.800668] (motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.883690] (-) TimerEvent: {}
+[2.990259] (-) TimerEvent: {}
+[3.050026] (motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.070150] (motor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.073958] (motor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.074343] (motor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.077898] (motor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.090408] (-) TimerEvent: {}
+[3.190894] (-) TimerEvent: {}
+[3.291359] (-) TimerEvent: {}
+[3.391917] (-) TimerEvent: {}
+[3.467153] (motor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.492071] (-) TimerEvent: {}
+[3.592751] (-) TimerEvent: {}
+[3.693342] (-) TimerEvent: {}
+[3.717444] (motor) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.793686] (-) TimerEvent: {}
+[3.894476] (-) TimerEvent: {}
+[3.995174] (-) TimerEvent: {}
+[4.096096] (-) TimerEvent: {}
+[4.196954] (-) TimerEvent: {}
+[4.297884] (-) TimerEvent: {}
+[4.372890] (motor) CommandEnded: {'returncode': -2}
+[4.398175] (-) TimerEvent: {}
+[4.499010] (-) TimerEvent: {}
+[4.599871] (-) TimerEvent: {}
+[4.700703] (-) TimerEvent: {}
+[4.801570] (-) TimerEvent: {}
+[4.902448] (-) TimerEvent: {}
+[5.003313] (-) TimerEvent: {}
+[5.104163] (-) TimerEvent: {}
+[5.205009] (-) TimerEvent: {}
+[5.305734] (-) TimerEvent: {}
+[5.406497] (-) TimerEvent: {}
+[5.507221] (-) TimerEvent: {}
+[5.608158] (-) TimerEvent: {}
+[5.709025] (-) TimerEvent: {}
+[5.809895] (-) TimerEvent: {}
+[5.910727] (-) TimerEvent: {}
+[6.011542] (-) TimerEvent: {}
+[6.112468] (-) TimerEvent: {}
+[6.213950] (-) TimerEvent: {}
+[6.270036] (motor) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build\n    rc = await extension.build(\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure\n    buildfile = get_buildfile(cmake_cache)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile\n    if \'Visual Studio\' in generator:\nTypeError: argument of type \'NoneType\' is not iterable\n'}
+[6.270523] (motor) JobEnded: {'identifier': 'motor', 'rc': 'SIGINT'}
+[6.281312] (-) EventReactorShutdown: {}

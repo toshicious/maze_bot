@@ -1,0 +1,21 @@
+[0.301s] Invoking command in '/home/toshie/Desktop/project/build/motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/project/build/motor -- -j2 -l2
+[0.757s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.818s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[7.704s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const String&) const[m[K’:
+[7.704s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:38:19:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kstd::string msg[m[K’ shadows a parameter
+[7.705s]    38 |       std::string [01;31m[Kmsg[m[K = msg.data.c_str();
+[7.705s]       |                   [01;31m[K^~~[m[K
+[7.705s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:35:55:[m[K [01;36m[Knote: [m[K‘[01m[Kconst String& msg[m[K’ previously declared here
+[7.705s]    35 |     void topic_callback([01;36m[Kconst std_msgs::msg::String & msg[m[K) const
+[7.705s]       |                         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[7.741s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:38:29:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[K_CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::data() [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[7.741s]    38 |       std::string msg = [01;31m[Kmsg.data[m[K.c_str();
+[7.742s]       |                         [01;31m[K~~~~^~~~[m[K
+[7.742s]       |                                 [32m[K()[m[K
+[7.746s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:35:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.746s]    35 |     void topic_callback([01;35m[Kconst std_msgs::msg::String & msg[m[K) const
+[7.747s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[13.475s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[13.477s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[13.477s] gmake: *** [Makefile:146: all] Error 2
+[13.481s] Invoked command in '/home/toshie/Desktop/project/build/motor' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/project/build/motor -- -j2 -l2

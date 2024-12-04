@@ -1,0 +1,8 @@
+[01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const String&) const[m[K’:
+[01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:39:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khead[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+   39 |       [01;31m[Khead[m[K(msg.data.c_str());
+      |       [01;31m[K^~~~[m[K
+      |       [32m[Kread[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

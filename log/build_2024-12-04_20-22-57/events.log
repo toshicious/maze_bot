@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.001757] (-) JobUnselected: {'identifier': 'motor'}
+[0.002273] (-) JobUnselected: {'identifier': 'sensor'}
+[0.002636] (main) JobQueued: {'identifier': 'main', 'dependencies': OrderedDict()}
+[0.002737] (main) JobStarted: {'identifier': 'main'}
+[0.054852] (main) JobProgress: {'identifier': 'main', 'progress': 'cmake'}
+[0.055664] (main) Command: {'cmd': ['/usr/bin/cmake', '/home/toshie/Desktop/project/src/main', '-DCMAKE_INSTALL_PREFIX=/home/toshie/Desktop/project/install/main'], 'cwd': '/home/toshie/Desktop/project/build/main', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'toshie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/toshie'), ('OLDPWD', '/home/toshie/Desktop/project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1382'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'toshie'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'toshie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/batoonie:@/tmp/.ICE-unix/1382,unix/batoonie:/tmp/.ICE-unix/1382'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/806b4192_af2f_4f52_ba6d_a1e5cddc2a86'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BNMKY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/toshie/Desktop/project/build/main'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.098720] (-) TimerEvent: {}
+[0.199463] (-) TimerEvent: {}
+[0.300272] (-) TimerEvent: {}
+[0.401088] (-) TimerEvent: {}
+[0.501876] (-) TimerEvent: {}
+[0.602482] (-) TimerEvent: {}
+[0.703069] (-) TimerEvent: {}
+[0.804287] (-) TimerEvent: {}
+[0.904941] (-) TimerEvent: {}
+[1.005780] (-) TimerEvent: {}
+[1.106739] (-) TimerEvent: {}
+[1.207562] (-) TimerEvent: {}
+[1.308453] (-) TimerEvent: {}
+[1.409111] (-) TimerEvent: {}
+[1.509946] (-) TimerEvent: {}
+[1.611473] (-) TimerEvent: {}
+[1.712337] (-) TimerEvent: {}
+[1.813236] (-) TimerEvent: {}
+[1.914104] (-) TimerEvent: {}
+[2.015326] (-) TimerEvent: {}
+[2.116168] (-) TimerEvent: {}
+[2.216954] (-) TimerEvent: {}
+[2.317688] (-) TimerEvent: {}
+[2.418564] (-) TimerEvent: {}
+[2.482759] (main) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.518919] (-) TimerEvent: {}
+[2.620224] (-) TimerEvent: {}
+[2.720909] (-) TimerEvent: {}
+[2.821708] (-) TimerEvent: {}
+[2.922502] (-) TimerEvent: {}
+[3.023320] (-) TimerEvent: {}
+[3.123983] (-) TimerEvent: {}
+[3.224678] (-) TimerEvent: {}
+[3.325314] (-) TimerEvent: {}
+[3.426187] (-) TimerEvent: {}
+[3.507118] (main) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.526543] (-) TimerEvent: {}
+[3.604642] (main) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.626875] (-) TimerEvent: {}
+[3.728493] (-) TimerEvent: {}
+[3.828967] (-) TimerEvent: {}
+[3.907434] (main) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.922805] (main) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.923511] (main) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.929273] (-) TimerEvent: {}
+[3.972588] (main) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.980042] (main) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.029627] (-) TimerEvent: {}
+[4.131094] (-) TimerEvent: {}
+[4.226546] (main) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.231214] (-) TimerEvent: {}
+[4.245866] (main) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.246575] (main) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.247686] (main) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.331452] (-) TimerEvent: {}
+[4.381275] (main) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.381687] (main) StdoutLine: {'line': b'See also "/home/toshie/Desktop/project/build/main/CMakeFiles/CMakeOutput.log".\n'}
+[4.383269] (main) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:7 (find_package):\n'}
+[4.383690] (main) StderrLine: {'line': b'  By not providing "Findrclcpp.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[4.383889] (main) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "rclcpp", but\n'}
+[4.384063] (main) StderrLine: {'line': b'  CMake did not find one.\n'}
+[4.384228] (main) StderrLine: {'line': b'\n'}
+[4.384418] (main) StderrLine: {'line': b'  Could not find a package configuration file provided by "rclcpp" with any\n'}
+[4.384627] (main) StderrLine: {'line': b'  of the following names:\n'}
+[4.384799] (main) StderrLine: {'line': b'\n'}
+[4.384958] (main) StderrLine: {'line': b'    rclcppConfig.cmake\n'}
+[4.385103] (main) StderrLine: {'line': b'    rclcpp-config.cmake\n'}
+[4.385260] (main) StderrLine: {'line': b'\n'}
+[4.385549] (main) StderrLine: {'line': b'  Add the installation prefix of "rclcpp" to CMAKE_PREFIX_PATH or set\n'}
+[4.385809] (main) StderrLine: {'line': b'  "rclcpp_DIR" to a directory containing one of the above files.  If "rclcpp"\n'}
+[4.386073] (main) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[4.386388] (main) StderrLine: {'line': b'  installed.\n'}
+[4.386592] (main) StderrLine: {'line': b'\n'}
+[4.386753] (main) StderrLine: {'line': b'\x1b[0m\n'}
+[4.425292] (main) CommandEnded: {'returncode': 1}
+[4.433501] (-) TimerEvent: {}
+[4.534173] (-) TimerEvent: {}
+[4.634846] (-) TimerEvent: {}
+[4.735550] (-) TimerEvent: {}
+[4.836354] (-) TimerEvent: {}
+[4.937178] (-) TimerEvent: {}
+[5.001768] (main) JobEnded: {'identifier': 'main', 'rc': 1}
+[5.015272] (-) EventReactorShutdown: {}

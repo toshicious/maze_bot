@@ -1,0 +1,25 @@
+[0.064s] Invoking command in '/home/toshie/Desktop/project/build/main': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/project/build/main -- -j2 -l2
+[0.284s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/main.cpp.o[0m
+[10.495s] [100%] [32m[1mLinking CXX executable talker[0m
+[11.125s] [100%] Built target talker
+[11.149s] Invoked command in '/home/toshie/Desktop/project/build/main' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/project/build/main -- -j2 -l2
+[11.219s] Invoking command in '/home/toshie/Desktop/project/build/main': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/toshie/Desktop/project/build/main
+[11.266s] -- Install configuration: ""
+[11.304s] -- Installing: /home/toshie/Desktop/project/install/main/lib/main/talker
+[11.310s] -- Set runtime path of "/home/toshie/Desktop/project/install/main/lib/main/talker" to ""
+[11.311s] -- Up-to-date: /home/toshie/Desktop/project/install/main/share/ament_index/resource_index/package_run_dependencies/main
+[11.311s] -- Up-to-date: /home/toshie/Desktop/project/install/main/share/ament_index/resource_index/parent_prefix_path/main
+[11.311s] -- Up-to-date: /home/toshie/Desktop/project/install/main/share/main/environment/ament_prefix_path.sh
+[11.311s] -- Up-to-date: /home/toshie/Desktop/project/install/main/share/main/environment/ament_prefix_path.dsv
+[11.312s] -- Up-to-date: /home/toshie/Desktop/project/install/main/share/main/environment/path.sh
+[11.313s] -- Up-to-date: /home/toshie/Desktop/project/install/main/share/main/environment/path.dsv
+[11.313s] -- Up-to-date: /home/toshie/Desktop/project/install/main/share/main/local_setup.bash
+[11.313s] -- Up-to-date: /home/toshie/Desktop/project/install/main/share/main/local_setup.sh
+[11.313s] -- Up-to-date: /home/toshie/Desktop/project/install/main/share/main/local_setup.zsh
+[11.314s] -- Up-to-date: /home/toshie/Desktop/project/install/main/share/main/local_setup.dsv
+[11.314s] -- Installing: /home/toshie/Desktop/project/install/main/share/main/package.dsv
+[11.322s] -- Up-to-date: /home/toshie/Desktop/project/install/main/share/ament_index/resource_index/packages/main
+[11.323s] -- Up-to-date: /home/toshie/Desktop/project/install/main/share/main/cmake/mainConfig.cmake
+[11.325s] -- Up-to-date: /home/toshie/Desktop/project/install/main/share/main/cmake/mainConfig-version.cmake
+[11.325s] -- Up-to-date: /home/toshie/Desktop/project/install/main/share/main/package.xml
+[11.326s] Invoked command in '/home/toshie/Desktop/project/build/main' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/toshie/Desktop/project/build/main

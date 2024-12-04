@@ -1,0 +1,998 @@
+[0.000000] (-) TimerEvent: {}
+[0.001797] (-) JobUnselected: {'identifier': 'main'}
+[0.002244] (-) JobUnselected: {'identifier': 'sensor'}
+[0.003010] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.003340] (motor) JobStarted: {'identifier': 'motor'}
+[0.052170] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[0.082116] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[0.083904] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toshie/Desktop/project/build/motor', '--', '-j2', '-l2'], 'cwd': '/home/toshie/Desktop/project/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'toshie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/toshie'), ('OLDPWD', '/home/toshie/Desktop/project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1382'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toshie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'toshie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/batoonie:@/tmp/.ICE-unix/1382,unix/batoonie:/tmp/.ICE-unix/1382'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9d42735e_4efe_421d_917a_0c7d39a69b6d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BNMKY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/toshie/Desktop/project/build/motor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.276275] (-) TimerEvent: {}
+[0.379190] (-) TimerEvent: {}
+[0.479844] (-) TimerEvent: {}
+[0.580548] (-) TimerEvent: {}
+[0.681253] (-) TimerEvent: {}
+[0.782194] (-) TimerEvent: {}
+[0.883039] (-) TimerEvent: {}
+[0.984013] (-) TimerEvent: {}
+[1.084987] (-) TimerEvent: {}
+[1.185897] (-) TimerEvent: {}
+[1.286821] (-) TimerEvent: {}
+[1.387750] (-) TimerEvent: {}
+[1.488721] (-) TimerEvent: {}
+[1.589617] (-) TimerEvent: {}
+[1.690380] (-) TimerEvent: {}
+[1.791084] (-) TimerEvent: {}
+[1.891915] (-) TimerEvent: {}
+[1.992637] (-) TimerEvent: {}
+[2.093217] (-) TimerEvent: {}
+[2.154337] (motor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[2.194156] (-) TimerEvent: {}
+[2.234053] (motor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o\x1b[0m\n'}
+[2.294312] (-) TimerEvent: {}
+[2.397917] (-) TimerEvent: {}
+[2.498396] (-) TimerEvent: {}
+[2.599484] (-) TimerEvent: {}
+[2.699978] (-) TimerEvent: {}
+[2.800471] (-) TimerEvent: {}
+[2.871941] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmulti-character character constant [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmultichar\x07-Wmultichar\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.872410] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;35m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[2.872678] (motor) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.900642] (-) TimerEvent: {}
+[3.001214] (-) TimerEvent: {}
+[3.101781] (-) TimerEvent: {}
+[3.202354] (-) TimerEvent: {}
+[3.302905] (-) TimerEvent: {}
+[3.403446] (-) TimerEvent: {}
+[3.503982] (-) TimerEvent: {}
+[3.605237] (-) TimerEvent: {}
+[3.705821] (-) TimerEvent: {}
+[3.807293] (-) TimerEvent: {}
+[3.907803] (-) TimerEvent: {}
+[4.008381] (-) TimerEvent: {}
+[4.109089] (-) TimerEvent: {}
+[4.209838] (-) TimerEvent: {}
+[4.310735] (-) TimerEvent: {}
+[4.412030] (-) TimerEvent: {}
+[4.512562] (-) TimerEvent: {}
+[4.613153] (-) TimerEvent: {}
+[4.713682] (-) TimerEvent: {}
+[4.814263] (-) TimerEvent: {}
+[4.914830] (-) TimerEvent: {}
+[5.015396] (-) TimerEvent: {}
+[5.115948] (-) TimerEvent: {}
+[5.216475] (-) TimerEvent: {}
+[5.317033] (-) TimerEvent: {}
+[5.417578] (-) TimerEvent: {}
+[5.518515] (-) TimerEvent: {}
+[5.619090] (-) TimerEvent: {}
+[5.719623] (-) TimerEvent: {}
+[5.820759] (-) TimerEvent: {}
+[5.921641] (-) TimerEvent: {}
+[6.022195] (-) TimerEvent: {}
+[6.125090] (-) TimerEvent: {}
+[6.225609] (-) TimerEvent: {}
+[6.326166] (-) TimerEvent: {}
+[6.426698] (-) TimerEvent: {}
+[6.527244] (-) TimerEvent: {}
+[6.627774] (-) TimerEvent: {}
+[6.728358] (-) TimerEvent: {}
+[6.828922] (-) TimerEvent: {}
+[6.930192] (-) TimerEvent: {}
+[7.030698] (-) TimerEvent: {}
+[7.131254] (-) TimerEvent: {}
+[7.231795] (-) TimerEvent: {}
+[7.334047] (-) TimerEvent: {}
+[7.434567] (-) TimerEvent: {}
+[7.535108] (-) TimerEvent: {}
+[7.635603] (-) TimerEvent: {}
+[7.736159] (-) TimerEvent: {}
+[7.836692] (-) TimerEvent: {}
+[7.937263] (-) TimerEvent: {}
+[8.038487] (-) TimerEvent: {}
+[8.139013] (-) TimerEvent: {}
+[8.239538] (-) TimerEvent: {}
+[8.340081] (-) TimerEvent: {}
+[8.441262] (-) TimerEvent: {}
+[8.541776] (-) TimerEvent: {}
+[8.642359] (-) TimerEvent: {}
+[8.742924] (-) TimerEvent: {}
+[8.843441] (-) TimerEvent: {}
+[8.943978] (-) TimerEvent: {}
+[9.045475] (-) TimerEvent: {}
+[9.146005] (-) TimerEvent: {}
+[9.247209] (-) TimerEvent: {}
+[9.347756] (-) TimerEvent: {}
+[9.413366] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid head(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.413784] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator==\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[9.414115] (motor) StderrLine: {'line': b"   15 |   if(\x1b[32m\x1b[Kmsg\x1b[m\x1b[K \x1b[01;31m\x1b[K==\x1b[m\x1b[K \x1b[34m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.414343] (motor) StderrLine: {'line': b'      |      \x1b[32m\x1b[K~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[9.414545] (motor) StderrLine: {'line': b'      |      \x1b[32m\x1b[K|\x1b[m\x1b[K      \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[9.414751] (motor) StderrLine: {'line': b'      |      \x1b[32m\x1b[K|\x1b[m\x1b[K      \x1b[34m\x1b[Kint\x1b[m\x1b[K\n'}
+[9.416423] (motor) StderrLine: {'line': b'      |      \x1b[32m\x1b[Kstd::string {aka std::__cxx11::basic_string<char>}\x1b[m\x1b[K\n'}
+[9.418288] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[9.418618] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[9.418805] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.419014] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.419208] (motor) StderrLine: {'line': b' 1155 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __normal_iterator<_IteratorL, _Container>& __lhs,\n'}
+[9.419392] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.419571] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.419749] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.422200] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.422438] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.422625] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[9.422806] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[9.423035] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.423273] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.423491] (motor) StderrLine: {'line': b' 1163 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __normal_iterator<_Iterator, _Container>& __lhs,\n'}
+[9.423669] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.423845] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.429606] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.431426] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.435710] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.437144] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[9.437968] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[9.440082] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[9.440432] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.442413] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:183:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Up> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<char>&, const __gnu_cxx::new_allocator<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.443517] (motor) StderrLine: {'line': b'  183 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const new_allocator&, const new_allocator<_Up>&)\n'}
+[9.444593] (motor) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.446516] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:183:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.446827] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst __gnu_cxx::new_allocator<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.450470] (-) TimerEvent: {}
+[9.450733] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.451051] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.451280] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[9.451510] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[9.451728] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.456832] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:466:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.458524] (motor) StderrLine: {'line': b'  466 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)\n'}
+[9.458910] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.459195] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:466:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.459464] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.459679] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.463154] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.464435] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[9.464734] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[9.464981] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.465193] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.465391] (motor) StderrLine: {'line': b'  420 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_Iterator>& __x,\n'}
+[9.465592] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.465800] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.470284] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.470581] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.470822] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.471131] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[9.471380] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[9.471615] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.471851] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:459:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.479787] (motor) StderrLine: {'line': b'  459 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_IteratorL>& __x,\n'}
+[9.480099] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.480361] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:459:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.480592] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.480848] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.484587] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.484822] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[9.485079] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[9.488217] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.488530] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.488758] (motor) StderrLine: {'line': b' 1585 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_IteratorL>& __x,\n'}
+[9.491225] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.491538] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.491815] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.492136] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.492366] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.492607] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[9.492826] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[9.497371] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.497669] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.498003] (motor) StderrLine: {'line': b' 1648 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_Iterator>& __x,\n'}
+[9.498252] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.498459] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.498709] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.503152] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.503491] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.503728] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[9.504008] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.504224] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.504420] (motor) StderrLine: {'line': b'  218 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const allocator<_T1>&, const allocator<_T2>&)\n'}
+[9.504608] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.504808] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.509271] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<_Tp1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.512249] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.512568] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.512860] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[9.515382] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[9.515670] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[9.515978] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.516269] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:276:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.516503] (motor) StderrLine: {'line': b'  276 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)\n'}
+[9.516714] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.521163] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:276:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.521509] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<_Tp, _Nm>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.521819] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.522146] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.522396] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[9.522628] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[9.525807] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.526300] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1524:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_UTypes ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.526635] (motor) StderrLine: {'line': b' 1524 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const tuple<_TElements...>& __t,\n'}
+[9.526903] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.527178] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1524:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.527413] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::tuple<_Tps ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.527657] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.533020] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.533456] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[9.533684] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.536388] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:753:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.536649] (motor) StderrLine: {'line': b'  753 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x,\n'}
+[9.538968] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.539415] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:753:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.539698] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.540017] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.540313] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.540576] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[9.540841] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.544307] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:760:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.544514] (motor) StderrLine: {'line': b'  760 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept\n'}
+[9.544693] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.544877] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:760:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.545114] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.545311] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.545490] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.545664] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[9.545836] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.548259] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:767:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.548479] (motor) StderrLine: {'line': b'  767 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept\n'}
+[9.548665] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.548842] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:767:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.549080] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.549262] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.549435] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.550358] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iosfwd:40\x1b[m\x1b[K,\n'}
+[9.550626] (-) TimerEvent: {}
+[9.553156] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[9.553556] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[9.553756] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.553977] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/postypes.h:222:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.554171] (motor) StderrLine: {'line': b'  222 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)\n'}
+[9.554351] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.554526] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/postypes.h:222:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.554702] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::fpos<_StateT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.556996] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.557380] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.557569] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[9.557772] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[9.557976] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.558191] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.558385] (motor) StderrLine: {'line': b' 1410 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp1, _Lp>& __a,\n'}
+[9.558561] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.558740] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.561480] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp1, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.561815] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.562023] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.562203] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[9.562378] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[9.562552] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.562748] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.562964] (motor) StderrLine: {'line': b' 1416 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept\n'}
+[9.563154] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.563326] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.563503] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.563682] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.563861] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.564061] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[9.564236] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[9.564409] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.564583] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.564775] (motor) StderrLine: {'line': b' 1436 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept\n'}
+[9.567195] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.567427] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.567612] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.567816] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.568096] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.568280] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[9.568454] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.568630] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:437:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.568814] (motor) StderrLine: {'line': b'  437 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept\n'}
+[9.571228] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.571446] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:437:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.571627] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.571817] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.572029] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.572212] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[9.572388] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.572570] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:443:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.572751] (motor) StderrLine: {'line': b'  443 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept\n'}
+[9.575156] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.575410] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:443:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.575595] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.575814] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.576016] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.576194] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[9.576381] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.576573] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:464:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.576752] (motor) StderrLine: {'line': b'  464 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept\n'}
+[9.582371] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.582642] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:464:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.582833] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.586057] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.586278] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.586461] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[9.586638] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[9.586814] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5\x1b[m\x1b[K:\n'}
+[9.587134] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:535:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.587326] (motor) StderrLine: {'line': b'  535 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(basic_string_view<_CharT, _Traits> __x,\n'}
+[9.587499] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.587675] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:535:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.587851] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.588051] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.588227] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.588422] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[9.588595] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[9.588780] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5\x1b[m\x1b[K:\n'}
+[9.591215] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.591471] (motor) StderrLine: {'line': b'  541 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(basic_string_view<_CharT, _Traits> __x,\n'}
+[9.591655] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.591832] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.592052] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.592239] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.592413] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.592585] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[9.592761] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[9.595163] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5\x1b[m\x1b[K:\n'}
+[9.595410] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:564:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.595601] (motor) StderrLine: {'line': b'  564 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,\n'}
+[9.597676] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.597946] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:564:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.598147] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.598327] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.598536] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.598777] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[9.604579] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5\x1b[m\x1b[K:\n'}
+[9.604854] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.605082] (motor) StderrLine: {'line': b' 6226 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[9.605288] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.605466] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.605642] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.605824] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.606038] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.606215] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[9.606392] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5\x1b[m\x1b[K:\n'}
+[9.606595] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6234:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.606820] (motor) StderrLine: {'line': b' 6234 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT>& __lhs,\n'}
+[9.607074] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.607293] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6234:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.607469] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.610274] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.610501] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.610681] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[9.610879] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5\x1b[m\x1b[K:\n'}
+[9.611068] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6248:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.611243] (motor) StderrLine: {'line': b' 6248 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[9.611414] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.611586] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6248:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.611761] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.613192] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.613424] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.613617] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[9.613795] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5\x1b[m\x1b[K:\n'}
+[9.613993] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6289:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.614185] (motor) StderrLine: {'line': b' 6289 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _CharT* __lhs,\n'}
+[9.614359] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.614532] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6289:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.614744] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.618154] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.618410] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.618588] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_facets.h:48\x1b[m\x1b[K,\n'}
+[9.618764] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_ios.h:37\x1b[m\x1b[K,\n'}
+[9.618961] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:44\x1b[m\x1b[K,\n'}
+[9.619145] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/istream:38\x1b[m\x1b[K,\n'}
+[9.619317] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[9.619489] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/complex:45\x1b[m\x1b[K,\n'}
+[9.619661] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ccomplex:39\x1b[m\x1b[K,\n'}
+[9.619832] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54\x1b[m\x1b[K,\n'}
+[9.622267] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.622485] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.622681] (motor) StderrLine: {'line': b'  226 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const istreambuf_iterator<_CharT, _Traits>& __a,\n'}
+[9.622885] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.623076] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.623258] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::istreambuf_iterator<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.623466] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.623642] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.623814] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ccomplex:39\x1b[m\x1b[K,\n'}
+[9.626247] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54\x1b[m\x1b[K,\n'}
+[9.626473] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.626651] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:464:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator==(const std::complex<_Tp>&, const std::complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.626849] (motor) StderrLine: {'line': b'  464 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const complex<_Tp>& __x, const complex<_Tp>& __y)\n'}
+[9.627057] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.627232] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:464:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.627418] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.627599] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.627771] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.630179] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ccomplex:39\x1b[m\x1b[K,\n'}
+[9.630406] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54\x1b[m\x1b[K,\n'}
+[9.630584] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.630793] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:469:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator==(const std::complex<_Tp>&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.631010] (motor) StderrLine: {'line': b'  469 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const complex<_Tp>& __x, const _Tp& __y)\n'}
+[9.631213] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.631387] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:469:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.631560] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.631757] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.634155] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.634401] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ccomplex:39\x1b[m\x1b[K,\n'}
+[9.634630] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54\x1b[m\x1b[K,\n'}
+[9.634806] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.635045] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:475:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator==(const _Tp&, const std::complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.635228] (motor) StderrLine: {'line': b'  475 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _Tp& __x, const complex<_Tp>& __y)\n'}
+[9.635400] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.635569] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:475:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.635742] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.638136] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.638403] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.638586] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[9.638761] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[9.638985] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[9.639167] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:65\x1b[m\x1b[K,\n'}
+[9.639337] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.639508] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:718:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.639683] (motor) StderrLine: {'line': b'  718 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept\n'}
+[9.639862] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.642331] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:718:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.642527] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.642714] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.642899] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.643086] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[9.643256] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[9.643432] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[9.643606] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:65\x1b[m\x1b[K,\n'}
+[9.643797] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.646251] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:725:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.646479] (motor) StderrLine: {'line': b'  725 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept\n'}
+[9.646658] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.646839] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:725:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.647072] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.647277] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.647449] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.647622] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:47\x1b[m\x1b[K,\n'}
+[9.647802] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[9.650223] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[9.650444] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[9.650622] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:65\x1b[m\x1b[K,\n'}
+[9.650793] (-) TimerEvent: {}
+[9.651250] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.651509] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.651705] (motor) StderrLine: {'line': b' 2134 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[9.653981] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.654356] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.654544] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.654730] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.654921] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.655148] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:47\x1b[m\x1b[K,\n'}
+[9.655338] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[9.655512] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[9.655710] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[9.657986] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:65\x1b[m\x1b[K,\n'}
+[9.658362] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.658544] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2148:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.658729] (motor) StderrLine: {'line': b' 2148 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[9.658916] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.659102] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2148:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.659278] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.659459] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.659628] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.659795] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[9.661896] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[9.662134] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[9.662340] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[9.662520] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:65\x1b[m\x1b[K,\n'}
+[9.662699] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.662880] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1892:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.663134] (motor) StderrLine: {'line': b' 1892 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)\n'}
+[9.663324] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.663497] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1892:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.663676] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.666940] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.667352] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.667538] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/deque:67\x1b[m\x1b[K,\n'}
+[9.667714] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:68\x1b[m\x1b[K,\n'}
+[9.667982] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.668171] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_deque.h:2247:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.668352] (motor) StderrLine: {'line': b' 2247 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const deque<_Tp, _Alloc>& __x, const deque<_Tp, _Alloc>& __y)\n'}
+[9.668525] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.668699] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_deque.h:2247:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.670949] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::deque<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.671369] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.671557] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.671737] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/list:63\x1b[m\x1b[K,\n'}
+[9.672039] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:79\x1b[m\x1b[K,\n'}
+[9.672223] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.672393] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2030:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.672575] (motor) StderrLine: {'line': b' 2030 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)\n'}
+[9.672751] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.675590] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2030:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.675849] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::list<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.676106] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.676291] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.676463] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:61\x1b[m\x1b[K,\n'}
+[9.676644] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:81\x1b[m\x1b[K,\n'}
+[9.676843] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.680405] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1463:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.680624] (motor) StderrLine: {'line': b' 1463 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[9.680804] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.684385] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1463:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.684704] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.685049] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.685272] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.685455] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:62\x1b[m\x1b[K,\n'}
+[9.685631] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:81\x1b[m\x1b[K,\n'}
+[9.685804] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.688227] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.688477] (motor) StderrLine: {'line': b' 1128 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[9.688655] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.688829] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.689076] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.689266] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.689442] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.689615] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/queue:64\x1b[m\x1b[K,\n'}
+[9.689787] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:86\x1b[m\x1b[K,\n'}
+[9.691403] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.691653] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_queue.h:344:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Seq> bool std::operator==(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.691836] (motor) StderrLine: {'line': b'  344 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)\n'}
+[9.692378] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.692570] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_queue.h:344:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.692747] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::queue<_Tp, _Seq>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.692945] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.693127] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.693298] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:61\x1b[m\x1b[K,\n'}
+[9.693471] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:87\x1b[m\x1b[K,\n'}
+[9.693643] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.693813] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:985:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.698508] (motor) StderrLine: {'line': b'  985 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const set<_Key, _Compare, _Alloc>& __x,\n'}
+[9.698727] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.698950] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:985:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.699151] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::set<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.699338] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.699511] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.699682] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:62\x1b[m\x1b[K,\n'}
+[9.699854] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:87\x1b[m\x1b[K,\n'}
+[9.701938] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.702162] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:971:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.702368] (motor) StderrLine: {'line': b'  971 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multiset<_Key, _Compare, _Alloc>& __x,\n'}
+[9.702554] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.702742] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:971:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.704111] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multiset<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.704380] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.704591] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.704767] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/stack:61\x1b[m\x1b[K,\n'}
+[9.707184] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:89\x1b[m\x1b[K,\n'}
+[9.707416] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.707610] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_stack.h:319:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Seq> bool std::operator==(const std::stack<_Tp, _Seq>&, const std::stack<_Tp, _Seq>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.707800] (motor) StderrLine: {'line': b'  319 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const stack<_Tp, _Seq>& __x, const stack<_Tp, _Seq>& __y)\n'}
+[9.708000] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.708179] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_stack.h:319:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.708353] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::stack<_Tp, _Seq>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.708531] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.708701] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.710929] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/valarray:603\x1b[m\x1b[K,\n'}
+[9.711341] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[9.711568] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.711750] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:417:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.711965] (motor) StderrLine: {'line': b'  417 |     \x1b[01;36m\x1b[K_DEFINE_EXPR_BINARY_OPERATOR\x1b[m\x1b[K(==, struct std::__equal_to)\n'}
+[9.712148] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.712351] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:417:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.712546] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.712729] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.714580] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.715995] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/valarray:603\x1b[m\x1b[K,\n'}
+[9.716564] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[9.716754] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.719161] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:417:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.719434] (motor) StderrLine: {'line': b'  417 |     \x1b[01;36m\x1b[K_DEFINE_EXPR_BINARY_OPERATOR\x1b[m\x1b[K(==, struct std::__equal_to)\n'}
+[9.719648] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.719834] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:417:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.720107] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.720303] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.720480] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.720658] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/valarray:603\x1b[m\x1b[K,\n'}
+[9.720837] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[9.723316] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.723619] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:417:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.723944] (motor) StderrLine: {'line': b'  417 |     \x1b[01;36m\x1b[K_DEFINE_EXPR_BINARY_OPERATOR\x1b[m\x1b[K(==, struct std::__equal_to)\n'}
+[9.724266] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.724502] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:417:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.724694] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.726996] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.727360] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.727541] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/valarray:603\x1b[m\x1b[K,\n'}
+[9.727737] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[9.728015] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.728220] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:417:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.728408] (motor) StderrLine: {'line': b'  417 |     \x1b[01;36m\x1b[K_DEFINE_EXPR_BINARY_OPERATOR\x1b[m\x1b[K(==, struct std::__equal_to)\n'}
+[9.728593] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.728767] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:417:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.731208] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.731529] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.731779] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.732038] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/valarray:603\x1b[m\x1b[K,\n'}
+[9.732224] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[9.732397] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.732600] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:417:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.732788] (motor) StderrLine: {'line': b'  417 |     \x1b[01;36m\x1b[K_DEFINE_EXPR_BINARY_OPERATOR\x1b[m\x1b[K(==, struct std::__equal_to)\n'}
+[9.735210] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.735458] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/valarray_after.h:417:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.735653] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.735903] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.736125] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.736323] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[9.736508] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.736679] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1198:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__equal_to, _Tp>::result_type> std::operator==(const std::valarray<_Tp>&, const std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.736853] (motor) StderrLine: {'line': b' 1198 | \x1b[01;36m\x1b[K_DEFINE_BINARY_OPERATOR\x1b[m\x1b[K(==, __equal_to)\n'}
+[9.739320] (motor) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.739537] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1198:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.739732] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.739985] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.740183] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.740360] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[9.740532] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.740704] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1198:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__equal_to, _Tp>::result_type> std::operator==(const std::valarray<_Tp>&, const typename std::valarray<_Tp>::value_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.743004] (motor) StderrLine: {'line': b' 1198 | \x1b[01;36m\x1b[K_DEFINE_BINARY_OPERATOR\x1b[m\x1b[K(==, __equal_to)\n'}
+[9.743365] (motor) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.743548] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1198:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.743726] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.744047] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.744260] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.744441] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95\x1b[m\x1b[K,\n'}
+[9.744628] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.744805] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1198:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__equal_to, _Tp>::result_type> std::operator==(const typename std::valarray<_Tp>::value_type&, const std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.747269] (motor) StderrLine: {'line': b' 1198 | \x1b[01;36m\x1b[K_DEFINE_BINARY_OPERATOR\x1b[m\x1b[K(==, __equal_to)\n'}
+[9.747493] (motor) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.747675] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/valarray:1198:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.747852] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.748116] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.748301] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.748479] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/forward_list:40\x1b[m\x1b[K,\n'}
+[9.748661] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:104\x1b[m\x1b[K,\n'}
+[9.748834] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.751283] (-) TimerEvent: {}
+[9.751513] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/forward_list.tcc:393:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::forward_list<_Tp, _Alloc>&, const std::forward_list<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.751751] (motor) StderrLine: {'line': b'  393 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const forward_list<_Tp, _Alloc>& __lx,\n'}
+[9.752182] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.752415] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/forward_list.tcc:393:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.752605] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::forward_list<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.752800] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.755231] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.755453] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[9.755643] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:108\x1b[m\x1b[K,\n'}
+[9.755861] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.756125] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1899:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RealType1> bool std::operator==(const std::normal_distribution<_RealType>&, const std::normal_distribution<_RealType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.756332] (motor) StderrLine: {'line': b' 1899 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const std::normal_distribution<_RealType>& __d1,\n'}
+[9.756518] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.756702] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1899:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.760010] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::normal_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.760403] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.760602] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.760792] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:111\x1b[m\x1b[K,\n'}
+[9.761026] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.761219] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/scoped_allocator:499:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _OutA1, class _OutA2, class ... _InA> bool std::operator==(const std::scoped_allocator_adaptor<_OutA1, _InA ...>&, const std::scoped_allocator_adaptor<_InnerHead, _InnerTail ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.761399] (motor) StderrLine: {'line': b'  499 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const scoped_allocator_adaptor<_OutA1, _InA...>& __a,\n'}
+[9.761572] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.761743] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/scoped_allocator:499:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.761936] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::scoped_allocator_adaptor<_OutA1, _InA ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.764209] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.764452] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.764640] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_set:47\x1b[m\x1b[K,\n'}
+[9.764826] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:118\x1b[m\x1b[K,\n'}
+[9.765050] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.765232] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1804:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.765431] (motor) StderrLine: {'line': b' 1804 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,\n'}
+[9.765603] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.765772] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1804:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.765967] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.766163] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.766339] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.766506] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_set:47\x1b[m\x1b[K,\n'}
+[9.766684] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:118\x1b[m\x1b[K,\n'}
+[9.766852] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.769309] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.769540] (motor) StderrLine: {'line': b' 1818 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,\n'}
+[9.769727] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.769933] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.770142] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.770325] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.770496] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.770664] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:130\x1b[m\x1b[K,\n'}
+[9.770832] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.773277] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1045:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const std::optional<_Up>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.773513] (motor) StderrLine: {'line': b' 1045 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)\n'}
+[9.773723] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.773921] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1045:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.774135] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.776305] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.776536] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.776719] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:130\x1b[m\x1b[K,\n'}
+[9.781556] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.781895] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator==(const std::optional<_Tp>&, std::nullopt_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.782107] (motor) StderrLine: {'line': b' 1105 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept\n'}
+[9.782289] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.782463] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.782637] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.782818] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.785241] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.785459] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:130\x1b[m\x1b[K,\n'}
+[9.785634] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.785812] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1116:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator==(std::nullopt_t, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.786023] (motor) StderrLine: {'line': b' 1116 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept\n'}
+[9.786200] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.786373] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1116:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.786545] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.786743] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.789130] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.789417] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:130\x1b[m\x1b[K,\n'}
+[9.789594] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.789764] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1173:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const _Up&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.789957] (motor) StderrLine: {'line': b' 1173 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, const _Up& __rhs)\n'}
+[9.790134] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.790301] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1173:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.790468] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.790644] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.790815] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.793239] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:130\x1b[m\x1b[K,\n'}
+[9.793461] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.793636] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1179:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Up, _Tp> std::operator==(const _Up&, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.793811] (motor) StderrLine: {'line': b' 1179 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _Up& __lhs, const optional<_Tp>& __rhs)\n'}
+[9.794028] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.794224] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1179:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.794398] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.794579] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.794765] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.798475] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:133\x1b[m\x1b[K,\n'}
+[9.798747] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.798976] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Types> constexpr bool std::operator==(const std::variant<_Types ...>&, const std::variant<_Types ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.799171] (motor) StderrLine: {'line': b' 1232 |   \x1b[01;36m\x1b[K_VARIANT_RELATION_FUNCTION_TEMPLATE\x1b[m\x1b[K(==, equal)\n'}
+[9.799345] (motor) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.799534] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.799706] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::variant<_Types ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.805012] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.805388] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.805574] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/regex:63\x1b[m\x1b[K,\n'}
+[9.805751] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110\x1b[m\x1b[K,\n'}
+[9.805952] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.806144] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1059:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _BiIter> bool std::__cxx11::operator==(const std::__cxx11::sub_match<_BiIter>&, const std::__cxx11::sub_match<_BiIter>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.806322] (motor) StderrLine: {'line': b' 1059 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const sub_match<_BiIter>& __lhs, const sub_match<_BiIter>& __rhs)\n'}
+[9.806496] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.806668] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1059:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.806839] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::sub_match<_BiIter>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.808772] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.810550] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.810770] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/regex:63\x1b[m\x1b[K,\n'}
+[9.811558] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110\x1b[m\x1b[K,\n'}
+[9.811774] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.815002] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1155:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Bi_iter, class _Ch_traits, class _Ch_alloc> bool std::__cxx11::operator==(std::__cxx11::__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>&, const std::__cxx11::sub_match<_BiIter>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.815294] (motor) StderrLine: {'line': b' 1155 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>& __lhs,\n'}
+[9.815495] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.815693] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1155:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.815936] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::sub_match<_BiIter>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.816226] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.816430] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.816655] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/regex:63\x1b[m\x1b[K,\n'}
+[9.816863] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110\x1b[m\x1b[K,\n'}
+[9.819433] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.819683] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1230:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Bi_iter, class _Ch_traits, class _Ch_alloc> bool std::__cxx11::operator==(const std::__cxx11::sub_match<_BiIter>&, std::__cxx11::__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.819982] (motor) StderrLine: {'line': b' 1230 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const sub_match<_Bi_iter>& __lhs,\n'}
+[9.820205] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.820406] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1230:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.820589] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::sub_match<_BiIter>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.820778] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.823204] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.823436] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/regex:63\x1b[m\x1b[K,\n'}
+[9.823617] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110\x1b[m\x1b[K,\n'}
+[9.823796] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.824029] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1322:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Bi_iter> bool std::__cxx11::operator==(const typename std::iterator_traits<_Iter>::value_type*, const std::__cxx11::sub_match<_BiIter>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.824222] (motor) StderrLine: {'line': b' 1322 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(typename iterator_traits<_Bi_iter>::value_type const* __lhs,\n'}
+[9.824416] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.824619] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1322:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.824847] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::sub_match<_BiIter>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.827328] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.827546] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.827757] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/regex:63\x1b[m\x1b[K,\n'}
+[9.827994] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110\x1b[m\x1b[K,\n'}
+[9.828223] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.828402] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1397:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Bi_iter> bool std::__cxx11::operator==(const std::__cxx11::sub_match<_BiIter>&, const typename std::iterator_traits<_Iter>::value_type*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.828583] (motor) StderrLine: {'line': b' 1397 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const sub_match<_Bi_iter>& __lhs,\n'}
+[9.828752] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.831168] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1397:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.831409] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::sub_match<_BiIter>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.831619] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.831794] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.832031] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/regex:63\x1b[m\x1b[K,\n'}
+[9.832224] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110\x1b[m\x1b[K,\n'}
+[9.832399] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.832574] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1490:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Bi_iter> bool std::__cxx11::operator==(const typename std::iterator_traits<_Iter>::value_type&, const std::__cxx11::sub_match<_BiIter>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.832773] (motor) StderrLine: {'line': b' 1490 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(typename iterator_traits<_Bi_iter>::value_type const& __lhs,\n'}
+[9.835210] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.835439] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1490:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.835631] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::sub_match<_BiIter>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.835813] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.836063] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.836281] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/regex:63\x1b[m\x1b[K,\n'}
+[9.836485] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110\x1b[m\x1b[K,\n'}
+[9.836665] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.836837] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1569:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Bi_iter> bool std::__cxx11::operator==(const std::__cxx11::sub_match<_BiIter>&, const typename std::iterator_traits<_Iter>::value_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.839303] (motor) StderrLine: {'line': b' 1569 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const sub_match<_Bi_iter>& __lhs,\n'}
+[9.839517] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.839701] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1569:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.839903] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::sub_match<_BiIter>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.840139] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.840315] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.840495] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/regex:63\x1b[m\x1b[K,\n'}
+[9.840665] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110\x1b[m\x1b[K,\n'}
+[9.840852] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.843303] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:2125:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Bi_iter, class _Alloc> bool std::__cxx11::operator==(const std::__cxx11::match_results<_BiIter, _Alloc>&, const std::__cxx11::match_results<_BiIter, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.843516] (motor) StderrLine: {'line': b' 2125 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const match_results<_Bi_iter, _Alloc>& __m1,\n'}
+[9.843695] (motor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.843884] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:2125:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.844085] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::match_results<_BiIter, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.844274] (motor) StderrLine: {'line': b"   15 |   if(msg == \x1b[01;36m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[9.844444] (motor) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.844613] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[9.844784] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[9.847196] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:204:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::allocator<char>&, const std::allocator<char>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.847474] (motor) StderrLine: {'line': b'  204 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const allocator&, const allocator&) _GLIBCXX_NOTHROW\n'}
+[9.847675] (motor) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.847862] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:204:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<char>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.848129] (motor) StderrLine: {'line': b'  204 |       operator==(\x1b[01;36m\x1b[Kconst allocator&\x1b[m\x1b[K, const allocator&) _GLIBCXX_NOTHROW\n'}
+[9.848311] (motor) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.848482] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:46\x1b[m\x1b[K,\n'}
+[9.848657] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[9.848833] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/istream:38\x1b[m\x1b[K,\n'}
+[9.851297] (-) TimerEvent: {}
+[9.851725] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[9.852037] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/complex:45\x1b[m\x1b[K,\n'}
+[9.852242] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ccomplex:39\x1b[m\x1b[K,\n'}
+[9.852428] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54\x1b[m\x1b[K,\n'}
+[9.852612] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.852792] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:362:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_code&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.855234] (motor) StderrLine: {'line': b'  362 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_code& __rhs) noexcept\n'}
+[9.855463] (motor) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.855645] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:362:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.855830] (motor) StderrLine: {'line': b'  362 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[9.856043] (motor) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[9.856238] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:368:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_code&, const std::error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.856422] (motor) StderrLine: {'line': b'  368 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_condition& __rhs) noexcept\n'}
+[9.856599] (motor) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.856768] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:368:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.859200] (motor) StderrLine: {'line': b'  368 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_condition& __rhs) noexcept\n'}
+[9.859451] (motor) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[9.859629] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:376:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_condition&, const std::error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.859809] (motor) StderrLine: {'line': b'  376 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs,\n'}
+[9.860040] (motor) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.860225] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:376:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.860403] (motor) StderrLine: {'line': b'  376 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K,\n'}
+[9.860575] (motor) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[9.860747] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:408:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_condition&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.862317] (motor) StderrLine: {'line': b'  408 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs, const error_code& __rhs) noexcept\n'}
+[9.862588] (motor) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.862772] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:408:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.862988] (motor) StderrLine: {'line': b'  408 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[9.863186] (motor) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[9.863383] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:48\x1b[m\x1b[K,\n'}
+[9.863558] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:105\x1b[m\x1b[K,\n'}
+[9.863742] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.867128] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:287:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(std::thread::id, std::thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.867409] (motor) StderrLine: {'line': b'  287 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(thread::id __x, thread::id __y) noexcept\n'}
+[9.867592] (motor) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.867765] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:287:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.868032] (motor) StderrLine: {'line': b'  287 |   operator==(\x1b[01;36m\x1b[Kthread::id __x\x1b[m\x1b[K, thread::id __y) noexcept\n'}
+[9.868216] (motor) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[9.868421] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:133\x1b[m\x1b[K,\n'}
+[9.868610] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.868784] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1239:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr bool std::operator==(std::monostate, std::monostate)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.871207] (motor) StderrLine: {'line': b' 1239 |   constexpr bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(monostate, monostate) noexcept { return true; }\n'}
+[9.871445] (motor) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.871630] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1239:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::monostate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.871816] (motor) StderrLine: {'line': b' 1239 |   constexpr bool operator==(\x1b[01;36m\x1b[Kmonostate\x1b[m\x1b[K, monostate) noexcept { return true; }\n'}
+[9.872029] (motor) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.872212] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(const String&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.872391] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:38:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::string msg\x1b[m\x1b[K\xe2\x80\x99 shadows a parameter\n'}
+[9.872566] (motor) StderrLine: {'line': b'   38 |       std::string \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K = msg.data();\n'}
+[9.872734] (motor) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.875056] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:35:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst String& msg\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[9.875383] (motor) StderrLine: {'line': b'   35 |     void topic_callback(\x1b[01;36m\x1b[Kconst std_msgs::msg::String & msg\x1b[m\x1b[K) const\n'}
+[9.875571] (motor) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[9.875748] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:39:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcout\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.875956] (motor) StderrLine: {'line': b'   39 |       \x1b[01;31m\x1b[Kcout\x1b[m\x1b[K<<msg;\n'}
+[9.876148] (motor) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.876322] (motor) StderrLine: {'line': b'      |       \x1b[32m\x1b[Kstd::cout\x1b[m\x1b[K\n'}
+[9.876494] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:75\x1b[m\x1b[K,\n'}
+[9.881227] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[9.881494] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iostream:61:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[9.881685] (motor) StderrLine: {'line': b'   61 |   extern ostream \x1b[01;36m\x1b[Kcout\x1b[m\x1b[K;          /// Linked to standard output\n'}
+[9.881906] (motor) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.882111] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:35:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.882299] (motor) StderrLine: {'line': b'   35 |     void topic_callback(\x1b[01;35m\x1b[Kconst std_msgs::msg::String & msg\x1b[m\x1b[K) const\n'}
+[9.882469] (motor) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[9.882640] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.882821] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:48:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MinimalSubscriber>\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 requested\n'}
+[9.885400] (motor) StderrLine: {'line': b'   48 |   MinimalSubscriber sub = \x1b[01;31m\x1b[Kstd::make_shared<MinimalSubscriber>()\x1b[m\x1b[K;\n'}
+[9.885649] (motor) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[9.885833] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:49:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin(MinimalSubscriber&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.886100] (motor) StderrLine: {'line': b'   49 |   \x1b[01;31m\x1b[Krclcpp::spin(sub)\x1b[m\x1b[K;\n'}
+[9.886290] (motor) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[9.886457] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.886627] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:8\x1b[m\x1b[K:\n'}
+[9.886816] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.889265] (motor) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[9.889517] (motor) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.889696] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[9.889905] (motor) StderrLine: {'line': b'   45 | spin(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[9.890097] (motor) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[9.890270] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.890480] (motor) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[9.890656] (motor) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.890827] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[9.893273] (motor) StderrLine: {'line': b'   49 | spin(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[9.893498] (motor) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[9.953977] (-) TimerEvent: {}
+[10.054435] (-) TimerEvent: {}
+[10.154932] (-) TimerEvent: {}
+[10.262004] (-) TimerEvent: {}
+[10.365998] (-) TimerEvent: {}
+[10.470999] (-) TimerEvent: {}
+[10.571493] (-) TimerEvent: {}
+[10.672172] (-) TimerEvent: {}
+[10.772688] (-) TimerEvent: {}
+[10.873230] (-) TimerEvent: {}
+[10.973773] (-) TimerEvent: {}
+[11.074333] (-) TimerEvent: {}
+[11.174852] (-) TimerEvent: {}
+[11.275420] (-) TimerEvent: {}
+[11.376480] (-) TimerEvent: {}
+[11.476979] (-) TimerEvent: {}
+[11.577469] (-) TimerEvent: {}
+[11.678014] (-) TimerEvent: {}
+[11.778512] (-) TimerEvent: {}
+[11.879644] (-) TimerEvent: {}
+[11.980165] (-) TimerEvent: {}
+[12.080696] (-) TimerEvent: {}
+[12.181235] (-) TimerEvent: {}
+[12.282626] (-) TimerEvent: {}
+[12.383191] (-) TimerEvent: {}
+[12.483689] (-) TimerEvent: {}
+[12.584284] (-) TimerEvent: {}
+[12.684834] (-) TimerEvent: {}
+[12.785695] (-) TimerEvent: {}
+[12.886675] (-) TimerEvent: {}
+[12.987222] (-) TimerEvent: {}
+[13.087815] (-) TimerEvent: {}
+[13.191675] (-) TimerEvent: {}
+[13.295917] (-) TimerEvent: {}
+[13.400006] (-) TimerEvent: {}
+[13.502172] (-) TimerEvent: {}
+[13.602651] (-) TimerEvent: {}
+[13.705039] (-) TimerEvent: {}
+[13.805520] (-) TimerEvent: {}
+[13.905989] (-) TimerEvent: {}
+[14.006818] (-) TimerEvent: {}
+[14.108459] (-) TimerEvent: {}
+[14.209339] (-) TimerEvent: {}
+[14.309860] (-) TimerEvent: {}
+[14.410416] (-) TimerEvent: {}
+[14.510954] (-) TimerEvent: {}
+[14.614023] (-) TimerEvent: {}
+[14.714589] (-) TimerEvent: {}
+[14.815421] (-) TimerEvent: {}
+[14.918008] (-) TimerEvent: {}
+[15.018533] (-) TimerEvent: {}
+[15.119054] (-) TimerEvent: {}
+[15.219561] (-) TimerEvent: {}
+[15.320114] (-) TimerEvent: {}
+[15.421309] (-) TimerEvent: {}
+[15.521784] (-) TimerEvent: {}
+[15.622359] (-) TimerEvent: {}
+[15.687144] (motor) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1\n'}
+[15.688459] (motor) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2\n'}
+[15.689691] (motor) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.692431] (motor) CommandEnded: {'returncode': 2}
+[15.722568] (-) TimerEvent: {}
+[15.779005] (motor) JobEnded: {'identifier': 'motor', 'rc': 2}
+[15.799559] (-) EventReactorShutdown: {}

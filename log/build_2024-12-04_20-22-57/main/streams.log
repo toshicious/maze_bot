@@ -1,0 +1,33 @@
+[0.055s] Invoking command in '/home/toshie/Desktop/project/build/main': /usr/bin/cmake /home/toshie/Desktop/project/src/main -DCMAKE_INSTALL_PREFIX=/home/toshie/Desktop/project/install/main
+[2.480s] -- The C compiler identification is GNU 11.4.0
+[3.505s] -- The CXX compiler identification is GNU 11.4.0
+[3.602s] -- Detecting C compiler ABI info
+[3.905s] -- Detecting C compiler ABI info - done
+[3.920s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.921s] -- Detecting C compile features
+[3.970s] -- Detecting C compile features - done
+[3.977s] -- Detecting CXX compiler ABI info
+[4.224s] -- Detecting CXX compiler ABI info - done
+[4.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.244s] -- Detecting CXX compile features
+[4.245s] -- Detecting CXX compile features - done
+[4.379s] -- Configuring incomplete, errors occurred!
+[4.379s] See also "/home/toshie/Desktop/project/build/main/CMakeFiles/CMakeOutput.log".
+[4.381s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[4.381s]   By not providing "Findrclcpp.cmake" in CMAKE_MODULE_PATH this project has
+[4.381s]   asked CMake to find a package configuration file provided by "rclcpp", but
+[4.381s]   CMake did not find one.
+[4.382s] 
+[4.382s]   Could not find a package configuration file provided by "rclcpp" with any
+[4.382s]   of the following names:
+[4.382s] 
+[4.382s]     rclcppConfig.cmake
+[4.382s]     rclcpp-config.cmake
+[4.383s] 
+[4.383s]   Add the installation prefix of "rclcpp" to CMAKE_PREFIX_PATH or set
+[4.383s]   "rclcpp_DIR" to a directory containing one of the above files.  If "rclcpp"
+[4.383s]   provides a separate development package or SDK, be sure it has been
+[4.384s]   installed.
+[4.384s] 
+[4.384s] [0m
+[4.425s] Invoked command in '/home/toshie/Desktop/project/build/main' returned '1': /usr/bin/cmake /home/toshie/Desktop/project/src/main -DCMAKE_INSTALL_PREFIX=/home/toshie/Desktop/project/install/main

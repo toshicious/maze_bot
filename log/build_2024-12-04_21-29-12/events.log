@@ -1,0 +1,226 @@
+[0.000000] (-) TimerEvent: {}
+[0.001297] (-) JobUnselected: {'identifier': 'main'}
+[0.001734] (-) JobUnselected: {'identifier': 'sensor'}
+[0.001872] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.001927] (motor) JobStarted: {'identifier': 'motor'}
+[0.021127] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[0.057928] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[0.058099] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toshie/Desktop/project/build/motor', '--', '-j2', '-l2'], 'cwd': '/home/toshie/Desktop/project/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'toshie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/toshie'), ('OLDPWD', '/home/toshie/Desktop/project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1382'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toshie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'toshie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/batoonie:@/tmp/.ICE-unix/1382,unix/batoonie:/tmp/.ICE-unix/1382'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9d42735e_4efe_421d_917a_0c7d39a69b6d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BNMKY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/toshie/Desktop/project/build/motor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098713] (-) TimerEvent: {}
+[0.199320] (-) TimerEvent: {}
+[0.301805] (-) TimerEvent: {}
+[0.374409] (motor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.402281] (-) TimerEvent: {}
+[0.463421] (motor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o\x1b[0m\n'}
+[0.502606] (-) TimerEvent: {}
+[0.603375] (-) TimerEvent: {}
+[0.704136] (-) TimerEvent: {}
+[0.805032] (-) TimerEvent: {}
+[0.905592] (-) TimerEvent: {}
+[1.006179] (-) TimerEvent: {}
+[1.106776] (-) TimerEvent: {}
+[1.207314] (-) TimerEvent: {}
+[1.307899] (-) TimerEvent: {}
+[1.408557] (-) TimerEvent: {}
+[1.509472] (-) TimerEvent: {}
+[1.610357] (-) TimerEvent: {}
+[1.711136] (-) TimerEvent: {}
+[1.811926] (-) TimerEvent: {}
+[1.912503] (-) TimerEvent: {}
+[2.013256] (-) TimerEvent: {}
+[2.114041] (-) TimerEvent: {}
+[2.154044] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:14:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmulti-character character constant [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmultichar\x07-Wmultichar\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.154507] (motor) StderrLine: {'line': b"   14 |   if(msg == \x1b[01;35m\x1b[K'FWD'\x1b[m\x1b[K)\n"}
+[2.154737] (motor) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.214230] (-) TimerEvent: {}
+[2.314728] (-) TimerEvent: {}
+[2.415258] (-) TimerEvent: {}
+[2.515770] (-) TimerEvent: {}
+[2.616308] (-) TimerEvent: {}
+[2.716842] (-) TimerEvent: {}
+[2.817358] (-) TimerEvent: {}
+[2.917981] (-) TimerEvent: {}
+[3.018622] (-) TimerEvent: {}
+[3.119113] (-) TimerEvent: {}
+[3.219703] (-) TimerEvent: {}
+[3.320803] (-) TimerEvent: {}
+[3.422030] (-) TimerEvent: {}
+[3.522563] (-) TimerEvent: {}
+[3.623086] (-) TimerEvent: {}
+[3.724351] (-) TimerEvent: {}
+[3.824891] (-) TimerEvent: {}
+[3.925469] (-) TimerEvent: {}
+[4.026028] (-) TimerEvent: {}
+[4.126598] (-) TimerEvent: {}
+[4.227129] (-) TimerEvent: {}
+[4.328245] (-) TimerEvent: {}
+[4.428783] (-) TimerEvent: {}
+[4.530747] (-) TimerEvent: {}
+[4.631277] (-) TimerEvent: {}
+[4.731821] (-) TimerEvent: {}
+[4.832377] (-) TimerEvent: {}
+[4.933353] (-) TimerEvent: {}
+[5.033856] (-) TimerEvent: {}
+[5.135323] (-) TimerEvent: {}
+[5.235887] (-) TimerEvent: {}
+[5.336442] (-) TimerEvent: {}
+[5.436952] (-) TimerEvent: {}
+[5.537485] (-) TimerEvent: {}
+[5.638016] (-) TimerEvent: {}
+[5.739133] (-) TimerEvent: {}
+[5.839674] (-) TimerEvent: {}
+[5.940230] (-) TimerEvent: {}
+[6.040726] (-) TimerEvent: {}
+[6.141286] (-) TimerEvent: {}
+[6.241798] (-) TimerEvent: {}
+[6.342323] (-) TimerEvent: {}
+[6.442810] (-) TimerEvent: {}
+[6.543867] (-) TimerEvent: {}
+[6.644439] (-) TimerEvent: {}
+[6.745646] (-) TimerEvent: {}
+[6.846702] (-) TimerEvent: {}
+[6.947795] (-) TimerEvent: {}
+[7.048322] (-) TimerEvent: {}
+[7.148862] (-) TimerEvent: {}
+[7.249401] (-) TimerEvent: {}
+[7.350457] (-) TimerEvent: {}
+[7.451042] (-) TimerEvent: {}
+[7.552310] (-) TimerEvent: {}
+[7.652830] (-) TimerEvent: {}
+[7.753423] (-) TimerEvent: {}
+[7.853969] (-) TimerEvent: {}
+[7.954515] (-) TimerEvent: {}
+[8.055061] (-) TimerEvent: {}
+[8.155630] (-) TimerEvent: {}
+[8.256233] (-) TimerEvent: {}
+[8.309988] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:12:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[Khead\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[8.310501] (motor) StderrLine: {'line': b'   12 | void \x1b[01;31m\x1b[Khead\x1b[m\x1b[K(string msg)\n'}
+[8.310772] (motor) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.313279] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:12:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.313726] (motor) StderrLine: {'line': b'   12 | void head(\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K msg)\n'}
+[8.314005] (motor) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.314285] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:12:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[8.314550] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iosfwd:39\x1b[m\x1b[K,\n'}
+[8.314768] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[8.314980] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[8.319431] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[8.319903] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stringfwd.h:79:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.320228] (motor) StderrLine: {'line': b'   79 |   typedef basic_string<char>    \x1b[01;36m\x1b[Kstring\x1b[m\x1b[K;\n'}
+[8.320504] (motor) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.320760] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5\x1b[m\x1b[K:\n'}
+[8.321007] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string:67:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pmr::string\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.324841] (motor) StderrLine: {'line': b'   67 |     using \x1b[01;36m\x1b[Kstring\x1b[m\x1b[K    = basic_string<char>;\n'}
+[8.325236] (motor) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.356328] (-) TimerEvent: {}
+[8.448809] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(const String&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.449287] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:37:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.449580] (motor) StderrLine: {'line': b'   37 |       \x1b[01;31m\x1b[Kstring\x1b[m\x1b[K msg = msg.data();\n'}
+[8.449834] (motor) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.450093] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:37:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[8.453182] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iosfwd:39\x1b[m\x1b[K,\n'}
+[8.454302] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[8.454567] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[8.454787] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4\x1b[m\x1b[K:\n'}
+[8.454998] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stringfwd.h:79:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.458023] (-) TimerEvent: {}
+[8.458929] (motor) StderrLine: {'line': b'   79 |   typedef basic_string<char>    \x1b[01;36m\x1b[Kstring\x1b[m\x1b[K;\n'}
+[8.460437] (motor) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.461620] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5\x1b[m\x1b[K:\n'}
+[8.463160] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string:67:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pmr::string\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.463509] (motor) StderrLine: {'line': b'   67 |     using \x1b[01;36m\x1b[Kstring\x1b[m\x1b[K    = basic_string<char>;\n'}
+[8.463770] (motor) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.464006] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:38:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcout\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.466817] (motor) StderrLine: {'line': b'   38 |       \x1b[01;31m\x1b[Kcout\x1b[m\x1b[K<<msg;\n'}
+[8.467256] (motor) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.467509] (motor) StderrLine: {'line': b'      |       \x1b[32m\x1b[Kstd::cout\x1b[m\x1b[K\n'}
+[8.467749] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:75\x1b[m\x1b[K,\n'}
+[8.467994] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[8.471974] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iostream:61:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[8.473926] (motor) StderrLine: {'line': b'   61 |   extern ostream \x1b[01;36m\x1b[Kcout\x1b[m\x1b[K;          /// Linked to standard output\n'}
+[8.475245] (motor) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.475589] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:39:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khead\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kread\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.475927] (motor) StderrLine: {'line': b'   39 |       \x1b[01;31m\x1b[Khead\x1b[m\x1b[K(msg);\n'}
+[8.476223] (motor) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.476521] (motor) StderrLine: {'line': b'      |       \x1b[32m\x1b[Kread\x1b[m\x1b[K\n'}
+[8.476781] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.477029] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:47:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<MinimalSubscriber>\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 requested\n'}
+[8.481890] (motor) StderrLine: {'line': b'   47 |   MinimalSubscriber sub = \x1b[01;31m\x1b[Kstd::make_shared<MinimalSubscriber>()\x1b[m\x1b[K;\n'}
+[8.482329] (motor) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[8.482647] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:48:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin(MinimalSubscriber&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.482915] (motor) StderrLine: {'line': b'   48 |   \x1b[01;31m\x1b[Krclcpp::spin(sub)\x1b[m\x1b[K;\n'}
+[8.493154] (motor) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.493648] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.493924] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:8\x1b[m\x1b[K:\n'}
+[8.494183] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.494503] (motor) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[8.494746] (motor) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.494983] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[8.501409] (motor) StderrLine: {'line': b'   45 | spin(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[8.501849] (motor) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.502123] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.502440] (motor) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[8.502705] (motor) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.505994] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[8.506365] (motor) StderrLine: {'line': b'   49 | spin(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[8.506664] (motor) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[8.558225] (-) TimerEvent: {}
+[8.658778] (-) TimerEvent: {}
+[8.759354] (-) TimerEvent: {}
+[8.859880] (-) TimerEvent: {}
+[8.960426] (-) TimerEvent: {}
+[9.060966] (-) TimerEvent: {}
+[9.162153] (-) TimerEvent: {}
+[9.262684] (-) TimerEvent: {}
+[9.363263] (-) TimerEvent: {}
+[9.463788] (-) TimerEvent: {}
+[9.564338] (-) TimerEvent: {}
+[9.664876] (-) TimerEvent: {}
+[9.765427] (-) TimerEvent: {}
+[9.865930] (-) TimerEvent: {}
+[9.966470] (-) TimerEvent: {}
+[10.066975] (-) TimerEvent: {}
+[10.167516] (-) TimerEvent: {}
+[10.268078] (-) TimerEvent: {}
+[10.368627] (-) TimerEvent: {}
+[10.469150] (-) TimerEvent: {}
+[10.569723] (-) TimerEvent: {}
+[10.670302] (-) TimerEvent: {}
+[10.770848] (-) TimerEvent: {}
+[10.871426] (-) TimerEvent: {}
+[10.972603] (-) TimerEvent: {}
+[11.073143] (-) TimerEvent: {}
+[11.178353] (-) TimerEvent: {}
+[11.278903] (-) TimerEvent: {}
+[11.384374] (-) TimerEvent: {}
+[11.486408] (-) TimerEvent: {}
+[11.587235] (-) TimerEvent: {}
+[11.687747] (-) TimerEvent: {}
+[11.788276] (-) TimerEvent: {}
+[11.888803] (-) TimerEvent: {}
+[11.989319] (-) TimerEvent: {}
+[12.089868] (-) TimerEvent: {}
+[12.191312] (-) TimerEvent: {}
+[12.292247] (-) TimerEvent: {}
+[12.392819] (-) TimerEvent: {}
+[12.493416] (-) TimerEvent: {}
+[12.593947] (-) TimerEvent: {}
+[12.694515] (-) TimerEvent: {}
+[12.795051] (-) TimerEvent: {}
+[12.895598] (-) TimerEvent: {}
+[12.996110] (-) TimerEvent: {}
+[13.096686] (-) TimerEvent: {}
+[13.197245] (-) TimerEvent: {}
+[13.297782] (-) TimerEvent: {}
+[13.398326] (-) TimerEvent: {}
+[13.498876] (-) TimerEvent: {}
+[13.599444] (-) TimerEvent: {}
+[13.700002] (-) TimerEvent: {}
+[13.801260] (-) TimerEvent: {}
+[13.901897] (-) TimerEvent: {}
+[13.973562] (motor) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1\n'}
+[13.974751] (motor) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2\n'}
+[13.975159] (motor) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.979004] (motor) CommandEnded: {'returncode': 2}
+[14.002041] (-) TimerEvent: {}
+[14.064058] (motor) JobEnded: {'identifier': 'motor', 'rc': 2}
+[14.075509] (-) EventReactorShutdown: {}

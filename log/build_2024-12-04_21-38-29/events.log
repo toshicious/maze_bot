@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.002505] (-) JobUnselected: {'identifier': 'main'}
+[0.002633] (-) JobUnselected: {'identifier': 'sensor'}
+[0.002685] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.002735] (motor) JobStarted: {'identifier': 'motor'}
+[0.024078] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[0.037106] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[0.041231] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toshie/Desktop/project/build/motor', '--', '-j2', '-l2'], 'cwd': '/home/toshie/Desktop/project/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'toshie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/toshie'), ('OLDPWD', '/home/toshie/Desktop/project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1382'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toshie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'toshie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/batoonie:@/tmp/.ICE-unix/1382,unix/batoonie:/tmp/.ICE-unix/1382'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9d42735e_4efe_421d_917a_0c7d39a69b6d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BNMKY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/toshie/Desktop/project/build/motor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f6c37ae850e83d815d84e1767505c3d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100683] (-) TimerEvent: {}
+[0.201531] (-) TimerEvent: {}
+[0.239061] (motor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.281900] (motor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o\x1b[0m\n'}
+[0.302585] (-) TimerEvent: {}
+[0.403132] (-) TimerEvent: {}
+[0.505767] (-) TimerEvent: {}
+[0.606296] (-) TimerEvent: {}
+[0.706836] (-) TimerEvent: {}
+[0.807301] (-) TimerEvent: {}
+[0.908582] (-) TimerEvent: {}
+[1.009088] (-) TimerEvent: {}
+[1.111067] (-) TimerEvent: {}
+[1.213855] (-) TimerEvent: {}
+[1.314362] (-) TimerEvent: {}
+[1.417613] (-) TimerEvent: {}
+[1.519599] (-) TimerEvent: {}
+[1.620042] (-) TimerEvent: {}
+[1.720986] (-) TimerEvent: {}
+[1.821447] (-) TimerEvent: {}
+[1.923540] (-) TimerEvent: {}
+[2.024304] (-) TimerEvent: {}
+[2.124846] (-) TimerEvent: {}
+[2.225369] (-) TimerEvent: {}
+[2.325892] (-) TimerEvent: {}
+[2.426429] (-) TimerEvent: {}
+[2.526986] (-) TimerEvent: {}
+[2.627612] (-) TimerEvent: {}
+[2.728200] (-) TimerEvent: {}
+[2.828785] (-) TimerEvent: {}
+[2.929325] (-) TimerEvent: {}
+[3.029933] (-) TimerEvent: {}
+[3.130510] (-) TimerEvent: {}
+[3.231056] (-) TimerEvent: {}
+[3.331573] (-) TimerEvent: {}
+[3.432129] (-) TimerEvent: {}
+[3.532702] (-) TimerEvent: {}
+[3.633254] (-) TimerEvent: {}
+[3.733819] (-) TimerEvent: {}
+[3.835324] (-) TimerEvent: {}
+[3.935874] (-) TimerEvent: {}
+[4.036400] (-) TimerEvent: {}
+[4.137526] (-) TimerEvent: {}
+[4.238056] (-) TimerEvent: {}
+[4.338596] (-) TimerEvent: {}
+[4.439136] (-) TimerEvent: {}
+[4.539685] (-) TimerEvent: {}
+[4.640204] (-) TimerEvent: {}
+[4.740760] (-) TimerEvent: {}
+[4.842613] (-) TimerEvent: {}
+[4.943134] (-) TimerEvent: {}
+[5.043686] (-) TimerEvent: {}
+[5.144425] (-) TimerEvent: {}
+[5.245670] (-) TimerEvent: {}
+[5.347998] (-) TimerEvent: {}
+[5.448536] (-) TimerEvent: {}
+[5.549022] (-) TimerEvent: {}
+[5.649575] (-) TimerEvent: {}
+[5.750061] (-) TimerEvent: {}
+[5.850581] (-) TimerEvent: {}
+[5.952602] (-) TimerEvent: {}
+[6.053120] (-) TimerEvent: {}
+[6.153660] (-) TimerEvent: {}
+[6.254180] (-) TimerEvent: {}
+[6.355095] (-) TimerEvent: {}
+[6.455624] (-) TimerEvent: {}
+[6.556164] (-) TimerEvent: {}
+[6.657520] (-) TimerEvent: {}
+[6.758048] (-) TimerEvent: {}
+[6.858690] (-) TimerEvent: {}
+[6.959244] (-) TimerEvent: {}
+[7.059834] (-) TimerEvent: {}
+[7.160386] (-) TimerEvent: {}
+[7.260931] (-) TimerEvent: {}
+[7.361498] (-) TimerEvent: {}
+[7.462106] (-) TimerEvent: {}
+[7.562656] (-) TimerEvent: {}
+[7.610677] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(const String&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.611154] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:38:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::string msg\x1b[m\x1b[K\xe2\x80\x99 shadows a parameter\n'}
+[7.611428] (motor) StderrLine: {'line': b'   38 |       std::string \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K = msg.data();\n'}
+[7.613629] (motor) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.613919] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:35:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst String& msg\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[7.614204] (motor) StderrLine: {'line': b'   35 |     void topic_callback(\x1b[01;36m\x1b[Kconst std_msgs::msg::String & msg\x1b[m\x1b[K) const\n'}
+[7.617319] (motor) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[7.617793] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toshie/Desktop/project/src/motor/src/main.cpp:35:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.662806] (-) TimerEvent: {}
+[7.763874] (-) TimerEvent: {}
+[7.864416] (-) TimerEvent: {}
+[7.965546] (-) TimerEvent: {}
+[8.066680] (-) TimerEvent: {}
+[8.167199] (-) TimerEvent: {}
+[8.268806] (-) TimerEvent: {}
+[8.369355] (-) TimerEvent: {}
+[8.469911] (-) TimerEvent: {}
+[8.570464] (-) TimerEvent: {}
+[8.670972] (-) TimerEvent: {}
+[8.772178] (-) TimerEvent: {}
+[8.872716] (-) TimerEvent: {}
+[8.973214] (-) TimerEvent: {}
+[9.073731] (-) TimerEvent: {}
+[9.175525] (-) TimerEvent: {}
+[9.276444] (-) TimerEvent: {}
+[9.377539] (-) TimerEvent: {}
+[9.478072] (-) TimerEvent: {}
+[9.578762] (-) TimerEvent: {}
+[9.679546] (-) TimerEvent: {}
+[9.780215] (-) TimerEvent: {}
+[9.881097] (-) TimerEvent: {}
+[9.982243] (-) TimerEvent: {}
+[10.082781] (-) TimerEvent: {}
+[10.183294] (-) TimerEvent: {}
+[10.283841] (-) TimerEvent: {}
+[10.384380] (-) TimerEvent: {}
+[10.484942] (-) TimerEvent: {}
+[10.585498] (-) TimerEvent: {}
+[10.686872] (-) TimerEvent: {}
+[10.787397] (-) TimerEvent: {}
+[10.887956] (-) TimerEvent: {}
+[10.988538] (-) TimerEvent: {}
+[11.097249] (-) TimerEvent: {}
+[11.199815] (-) TimerEvent: {}
+[11.300362] (-) TimerEvent: {}
+[11.400913] (-) TimerEvent: {}
+[11.501457] (-) TimerEvent: {}
+[11.601994] (-) TimerEvent: {}
+[11.702547] (-) TimerEvent: {}
+[11.803093] (-) TimerEvent: {}
+[11.903640] (-) TimerEvent: {}
+[12.004183] (-) TimerEvent: {}
+[12.106630] (-) TimerEvent: {}
+[12.207175] (-) TimerEvent: {}
+[12.307747] (-) TimerEvent: {}
+[12.408281] (-) TimerEvent: {}
+[12.508831] (-) TimerEvent: {}
+[12.609383] (-) TimerEvent: {}
+[12.709977] (-) TimerEvent: {}
+[12.811035] (-) TimerEvent: {}
+[12.911536] (-) TimerEvent: {}
+[13.012056] (-) TimerEvent: {}
+[13.112580] (-) TimerEvent: {}
+[13.213666] (-) TimerEvent: {}
+[13.314185] (-) TimerEvent: {}
+[13.360180] (motor) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1\n'}
+[13.362195] (motor) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2\n'}
+[13.362625] (motor) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.365452] (motor) CommandEnded: {'returncode': 2}
+[13.414995] (-) TimerEvent: {}
+[13.453997] (motor) JobEnded: {'identifier': 'motor', 'rc': 2}
+[13.467574] (-) EventReactorShutdown: {}

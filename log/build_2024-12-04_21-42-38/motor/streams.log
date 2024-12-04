@@ -1,0 +1,20 @@
+[0.058s] Invoking command in '/home/toshie/Desktop/project/build/motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/project/build/motor -- -j2 -l2
+[0.216s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.260s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[7.124s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:[m[K In function ‘[01m[Kvoid head(char*)[m[K’:
+[7.124s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:10:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[7.124s]    15 |   if([01;35m[Kmsg == "FWD"[m[K)
+[7.125s]       |      [01;35m[K~~~~^~~~~~~~[m[K
+[7.255s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const String&) const[m[K’:
+[7.255s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:39:26:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[7.255s]    39 |       head([01;31m[Kmsg.data.c_str()[m[K);
+[7.255s]       |            [01;31m[K~~~~~~~~~~~~~~^~[m[K
+[7.256s]       |                          [01;31m[K|[m[K
+[7.260s]       |                          [01;31m[Kconst char*[m[K
+[7.260s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:13:17:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid head(char*)[m[K’
+[7.260s]    13 | void head([01;36m[Kchar* msg[m[K)
+[7.260s]       |           [01;36m[K~~~~~~^~~[m[K
+[12.940s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[12.943s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[12.944s] gmake: *** [Makefile:146: all] Error 2
+[12.948s] Invoked command in '/home/toshie/Desktop/project/build/motor' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/project/build/motor -- -j2 -l2

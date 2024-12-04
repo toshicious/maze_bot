@@ -1,0 +1,2 @@
+Invoking command in '/home/toshie/Desktop/project/build/main': /usr/bin/cmake /home/toshie/Desktop/project/src/main -DCMAKE_INSTALL_PREFIX=/home/toshie/Desktop/project/install/main
+Invoked command in '/home/toshie/Desktop/project/build/main' returned '1': /usr/bin/cmake /home/toshie/Desktop/project/src/main -DCMAKE_INSTALL_PREFIX=/home/toshie/Desktop/project/install/main

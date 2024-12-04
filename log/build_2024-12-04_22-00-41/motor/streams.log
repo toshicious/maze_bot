@@ -1,0 +1,30 @@
+[0.062s] Invoking command in '/home/toshie/Desktop/project/build/motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/project/build/motor -- -j2 -l2
+[0.190s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.233s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[6.596s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const String&) const[m[K’:
+[6.596s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:35:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.597s]    35 |     void topic_callback([01;35m[Kconst std_msgs::msg::String & msg[m[K) const
+[6.597s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[21.188s] [100%] [32m[1mLinking CXX executable listener[0m
+[23.474s] [100%] Built target listener
+[23.502s] Invoked command in '/home/toshie/Desktop/project/build/motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/project/build/motor -- -j2 -l2
+[23.571s] Invoking command in '/home/toshie/Desktop/project/build/motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/toshie/Desktop/project/build/motor
+[23.635s] -- Install configuration: ""
+[23.831s] -- Installing: /home/toshie/Desktop/project/install/motor/lib/motor/listener
+[23.851s] -- Set runtime path of "/home/toshie/Desktop/project/install/motor/lib/motor/listener" to ""
+[23.854s] -- Up-to-date: /home/toshie/Desktop/project/install/motor/share/ament_index/resource_index/package_run_dependencies/motor
+[23.856s] -- Up-to-date: /home/toshie/Desktop/project/install/motor/share/ament_index/resource_index/parent_prefix_path/motor
+[23.857s] -- Up-to-date: /home/toshie/Desktop/project/install/motor/share/motor/environment/ament_prefix_path.sh
+[23.857s] -- Up-to-date: /home/toshie/Desktop/project/install/motor/share/motor/environment/ament_prefix_path.dsv
+[23.857s] -- Up-to-date: /home/toshie/Desktop/project/install/motor/share/motor/environment/path.sh
+[23.860s] -- Up-to-date: /home/toshie/Desktop/project/install/motor/share/motor/environment/path.dsv
+[23.860s] -- Up-to-date: /home/toshie/Desktop/project/install/motor/share/motor/local_setup.bash
+[23.860s] -- Up-to-date: /home/toshie/Desktop/project/install/motor/share/motor/local_setup.sh
+[23.862s] -- Up-to-date: /home/toshie/Desktop/project/install/motor/share/motor/local_setup.zsh
+[23.862s] -- Up-to-date: /home/toshie/Desktop/project/install/motor/share/motor/local_setup.dsv
+[23.863s] -- Installing: /home/toshie/Desktop/project/install/motor/share/motor/package.dsv
+[23.863s] -- Up-to-date: /home/toshie/Desktop/project/install/motor/share/ament_index/resource_index/packages/motor
+[23.863s] -- Up-to-date: /home/toshie/Desktop/project/install/motor/share/motor/cmake/motorConfig.cmake
+[23.863s] -- Up-to-date: /home/toshie/Desktop/project/install/motor/share/motor/cmake/motorConfig-version.cmake
+[23.863s] -- Up-to-date: /home/toshie/Desktop/project/install/motor/share/motor/package.xml
+[23.867s] Invoked command in '/home/toshie/Desktop/project/build/motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/toshie/Desktop/project/build/motor

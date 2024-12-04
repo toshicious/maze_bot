@@ -1,0 +1,846 @@
+[0.050s] Invoking command in '/home/toshie/Desktop/project/build/motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/project/build/motor -- -j2 -l2
+[0.237s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.300s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/main.cpp.o[0m
+[0.776s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmultichar-Wmultichar]8;;[m[K]
+[0.776s]    15 |   if(msg == [01;35m[K'FWD'[m[K)
+[0.776s]       |             [01;35m[K^~~~~[m[K
+[6.988s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:[m[K In function ‘[01m[Kvoid head(std::string)[m[K’:
+[6.988s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:10:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kint[m[K’)
+[6.988s]    15 |   if([32m[Kmsg[m[K [01;31m[K==[m[K [34m[K'FWD'[m[K)
+[6.993s]       |      [32m[K~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~[m[K
+[6.996s]       |      [32m[K|[m[K      [34m[K|[m[K
+[6.996s]       |      [32m[K|[m[K      [34m[Kint[m[K
+[6.996s]       |      [32m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[6.999s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[7.002s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[7.003s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.004s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)[m[K’
+[7.004s]  1155 |     [01;36m[Koperator[m[K==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+[7.004s]       |     [01;36m[K^~~~~~~~[m[K
+[7.005s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1155:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.006s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>[m[K’
+[7.012s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.012s]       |             [01;36m[K^~~~~[m[K
+[7.012s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[7.012s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[7.015s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.020s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+[7.021s]  1163 |     [01;36m[Koperator[m[K==(const __normal_iterator<_Iterator, _Container>& __lhs,
+[7.021s]       |     [01;36m[K^~~~~~~~[m[K
+[7.021s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1163:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.021s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’
+[7.021s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.028s]       |             [01;36m[K^~~~~[m[K
+[7.028s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[7.029s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[7.029s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[7.029s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.029s] [01m[K/usr/include/c++/11/ext/new_allocator.h:183:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<char>&, const __gnu_cxx::new_allocator<_Tp>&)[m[K’
+[7.029s]   183 |         [01;36m[Koperator[m[K==(const new_allocator&, const new_allocator<_Up>&)
+[7.030s]       |         [01;36m[K^~~~~~~~[m[K
+[7.037s] [01m[K/usr/include/c++/11/ext/new_allocator.h:183:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.038s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst __gnu_cxx::new_allocator<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[7.038s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.038s]       |             [01;36m[K^~~~~[m[K
+[7.038s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+[7.038s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[7.043s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.043s] [01m[K/usr/include/c++/11/bits/stl_pair.h:466:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)[m[K’
+[7.043s]   466 |     [01;36m[Koperator[m[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+[7.044s]       |     [01;36m[K^~~~~~~~[m[K
+[7.044s] [01m[K/usr/include/c++/11/bits/stl_pair.h:466:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.045s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[7.047s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.047s]       |             [01;36m[K^~~~~[m[K
+[7.047s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[7.048s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[7.048s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.048s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:420:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)[m[K’
+[7.048s]   420 |     [01;36m[Koperator[m[K==(const reverse_iterator<_Iterator>& __x,
+[7.051s]       |     [01;36m[K^~~~~~~~[m[K
+[7.051s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:420:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.051s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[7.054s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.054s]       |             [01;36m[K^~~~~[m[K
+[7.054s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[7.058s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[7.058s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.059s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:459:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+[7.059s]   459 |     [01;36m[Koperator[m[K==(const reverse_iterator<_IteratorL>& __x,
+[7.059s]       |     [01;36m[K^~~~~~~~[m[K
+[7.059s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:459:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.064s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[7.064s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.064s]       |             [01;36m[K^~~~~[m[K
+[7.067s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[7.067s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[7.067s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.068s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+[7.068s]  1585 |     [01;36m[Koperator[m[K==(const move_iterator<_IteratorL>& __x,
+[7.069s]       |     [01;36m[K^~~~~~~~[m[K
+[7.069s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.069s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[7.069s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.070s]       |             [01;36m[K^~~~~[m[K
+[7.072s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[7.072s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[7.072s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.073s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)[m[K’
+[7.073s]  1648 |     [01;36m[Koperator[m[K==(const move_iterator<_Iterator>& __x,
+[7.073s]       |     [01;36m[K^~~~~~~~[m[K
+[7.073s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.073s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[7.076s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.076s]       |             [01;36m[K^~~~~[m[K
+[7.077s] In file included from [01m[K/usr/include/c++/11/memory:64[m[K,
+[7.077s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.077s] [01m[K/usr/include/c++/11/bits/allocator.h:218:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_T2>&)[m[K’
+[7.077s]   218 |     [01;36m[Koperator[m[K==(const allocator<_T1>&, const allocator<_T2>&)
+[7.077s]       |     [01;36m[K^~~~~~~~[m[K
+[7.080s] [01m[K/usr/include/c++/11/bits/allocator.h:218:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.080s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::allocator<_Tp1>[m[K’
+[7.080s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.081s]       |             [01;36m[K^~~~~[m[K
+[7.081s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[7.084s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[7.084s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[7.086s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.086s] [01m[K/usr/include/c++/11/array:276:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)[m[K’
+[7.089s]   276 |     [01;36m[Koperator[m[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+[7.089s]       |     [01;36m[K^~~~~~~~[m[K
+[7.089s] [01m[K/usr/include/c++/11/array:276:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.090s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+[7.090s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.090s]       |             [01;36m[K^~~~~[m[K
+[7.090s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[7.093s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[7.093s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.093s] [01m[K/usr/include/c++/11/tuple:1524:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_UTypes ...>&)[m[K’
+[7.093s]  1524 |     [01;36m[Koperator[m[K==(const tuple<_TElements...>& __t,
+[7.094s]       |     [01;36m[K^~~~~~~~[m[K
+[7.094s] [01m[K/usr/include/c++/11/tuple:1524:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.094s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::tuple<_Tps ...>[m[K’
+[7.094s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.098s]       |             [01;36m[K^~~~~[m[K
+[7.098s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[7.099s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.099s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:753:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)[m[K’
+[7.099s]   753 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x,
+[7.099s]       |     [01;36m[K^~~~~~~~[m[K
+[7.102s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:753:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.103s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[7.103s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.103s]       |             [01;36m[K^~~~~[m[K
+[7.103s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[7.104s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.104s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:760:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)[m[K’
+[7.104s]   760 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+[7.104s]       |     [01;36m[K^~~~~~~~[m[K
+[7.108s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:760:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.110s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[7.110s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.111s]       |             [01;36m[K^~~~~[m[K
+[7.111s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[7.112s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.113s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:767:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)[m[K’
+[7.113s]   767 |     [01;36m[Koperator[m[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept
+[7.113s]       |     [01;36m[K^~~~~~~~[m[K
+[7.113s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:767:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.114s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Kint[m[K’
+[7.114s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.114s]       |             [01;36m[K^~~~~[m[K
+[7.118s] In file included from [01m[K/usr/include/c++/11/iosfwd:40[m[K,
+[7.120s]                  from [01m[K/usr/include/c++/11/bits/shared_ptr.h:52[m[K,
+[7.120s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.122s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.122s] [01m[K/usr/include/c++/11/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)[m[K’
+[7.122s]   222 |     [01;36m[Koperator[m[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+[7.123s]       |     [01;36m[K^~~~~~~~[m[K
+[7.123s] [01m[K/usr/include/c++/11/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.123s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::fpos<_StateT>[m[K’
+[7.123s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.128s]       |             [01;36m[K^~~~~[m[K
+[7.128s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[7.128s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.129s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.129s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)[m[K’
+[7.129s]  1410 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp1, _Lp>& __a,
+[7.129s]       |     [01;36m[K^~~~~~~~[m[K
+[7.131s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.131s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp1, _Lp>[m[K’
+[7.132s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.132s]       |             [01;36m[K^~~~~[m[K
+[7.132s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[7.132s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.136s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.136s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)[m[K’
+[7.136s]  1416 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+[7.136s]       |     [01;36m[K^~~~~~~~[m[K
+[7.136s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.137s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[7.137s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.137s]       |             [01;36m[K^~~~~[m[K
+[7.137s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[7.137s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.141s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.141s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[7.142s]  1436 |     [01;36m[Koperator[m[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+[7.142s]       |     [01;36m[K^~~~~~~~[m[K
+[7.142s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.142s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’ and ‘[01m[Kint[m[K’
+[7.144s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.145s]       |             [01;36m[K^~~~~[m[K
+[7.145s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.145s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.145s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:437:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)[m[K’
+[7.146s]   437 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+[7.146s]       |     [01;36m[K^~~~~~~~[m[K
+[7.146s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:437:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.146s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[7.146s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.151s]       |             [01;36m[K^~~~~[m[K
+[7.151s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.151s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.151s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:443:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)[m[K’
+[7.152s]   443 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+[7.152s]       |     [01;36m[K^~~~~~~~[m[K
+[7.152s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:443:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.152s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[7.155s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.155s]       |             [01;36m[K^~~~~[m[K
+[7.155s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.156s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.156s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:464:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)[m[K’
+[7.156s]   464 |     [01;36m[Koperator[m[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+[7.156s]       |     [01;36m[K^~~~~~~~[m[K
+[7.162s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:464:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.165s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[7.166s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.167s]       |             [01;36m[K^~~~~[m[K
+[7.167s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[7.168s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[7.168s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5[m[K:
+[7.168s] [01m[K/usr/include/c++/11/string_view:535:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)[m[K’
+[7.168s]   535 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+[7.168s]       |     [01;36m[K^~~~~~~~[m[K
+[7.172s] [01m[K/usr/include/c++/11/string_view:535:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.172s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[7.173s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.173s]       |             [01;36m[K^~~~~[m[K
+[7.173s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[7.173s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[7.175s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5[m[K:
+[7.175s] [01m[K/usr/include/c++/11/string_view:541:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)[m[K’
+[7.175s]   541 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+[7.175s]       |     [01;36m[K^~~~~~~~[m[K
+[7.176s] [01m[K/usr/include/c++/11/string_view:541:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.176s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[7.176s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.176s]       |             [01;36m[K^~~~~[m[K
+[7.177s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[7.180s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[7.180s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5[m[K:
+[7.180s] [01m[K/usr/include/c++/11/string_view:564:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)[m[K’
+[7.180s]   564 |     [01;36m[Koperator[m[K==(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,
+[7.180s]       |     [01;36m[K^~~~~~~~[m[K
+[7.181s] [01m[K/usr/include/c++/11/string_view:564:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.181s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’ and ‘[01m[Kint[m[K’
+[7.184s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.184s]       |             [01;36m[K^~~~~[m[K
+[7.184s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[7.184s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5[m[K:
+[7.185s] [01m[K/usr/include/c++/11/bits/basic_string.h:6226:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[7.185s]  6226 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[7.185s]       |     [01;36m[K^~~~~~~~[m[K
+[7.185s] [01m[K/usr/include/c++/11/bits/basic_string.h:6226:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.185s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kint[m[K’
+[7.189s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.189s]       |             [01;36m[K^~~~~[m[K
+[7.192s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[7.192s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5[m[K:
+[7.193s] [01m[K/usr/include/c++/11/bits/basic_string.h:6234:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)[m[K’
+[7.193s]  6234 |     [01;36m[Koperator[m[K==(const basic_string<_CharT>& __lhs,
+[7.193s]       |     [01;36m[K^~~~~~~~[m[K
+[7.193s] [01m[K/usr/include/c++/11/bits/basic_string.h:6234:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.194s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT>[m[K’ and ‘[01m[Kint[m[K’
+[7.194s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.194s]       |             [01;36m[K^~~~~[m[K
+[7.194s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[7.194s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5[m[K:
+[7.198s] [01m[K/usr/include/c++/11/bits/basic_string.h:6248:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+[7.199s]  6248 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[7.199s]       |     [01;36m[K^~~~~~~~[m[K
+[7.199s] [01m[K/usr/include/c++/11/bits/basic_string.h:6248:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.199s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kint[m[K’
+[7.200s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.200s]       |             [01;36m[K^~~~~[m[K
+[7.200s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[7.200s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5[m[K:
+[7.205s] [01m[K/usr/include/c++/11/bits/basic_string.h:6289:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[7.205s]  6289 |     [01;36m[Koperator[m[K==(const _CharT* __lhs,
+[7.206s]       |     [01;36m[K^~~~~~~~[m[K
+[7.206s] [01m[K/usr/include/c++/11/bits/basic_string.h:6289:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.206s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’
+[7.206s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.209s]       |             [01;36m[K^~~~~[m[K
+[7.209s] In file included from [01m[K/usr/include/c++/11/bits/locale_facets.h:48[m[K,
+[7.209s]                  from [01m[K/usr/include/c++/11/bits/basic_ios.h:37[m[K,
+[7.209s]                  from [01m[K/usr/include/c++/11/ios:44[m[K,
+[7.209s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[7.210s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.210s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[7.210s]                  from [01m[K/usr/include/c++/11/ccomplex:39[m[K,
+[7.210s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54[m[K,
+[7.210s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.211s] [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)[m[K’
+[7.215s]   226 |     [01;36m[Koperator[m[K==(const istreambuf_iterator<_CharT, _Traits>& __a,
+[7.215s]       |     [01;36m[K^~~~~~~~[m[K
+[7.217s] [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.218s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::istreambuf_iterator<_CharT, _Traits>[m[K’
+[7.218s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.218s]       |             [01;36m[K^~~~~[m[K
+[7.220s] In file included from [01m[K/usr/include/c++/11/ccomplex:39[m[K,
+[7.220s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54[m[K,
+[7.220s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.220s] [01m[K/usr/include/c++/11/complex:464:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+[7.223s]   464 |     [01;36m[Koperator[m[K==(const complex<_Tp>& __x, const complex<_Tp>& __y)
+[7.223s]       |     [01;36m[K^~~~~~~~[m[K
+[7.223s] [01m[K/usr/include/c++/11/complex:464:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.223s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[7.226s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.227s]       |             [01;36m[K^~~~~[m[K
+[7.227s] In file included from [01m[K/usr/include/c++/11/ccomplex:39[m[K,
+[7.227s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54[m[K,
+[7.227s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.230s] [01m[K/usr/include/c++/11/complex:469:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(const std::complex<_Tp>&, const _Tp&)[m[K’
+[7.230s]   469 |     [01;36m[Koperator[m[K==(const complex<_Tp>& __x, const _Tp& __y)
+[7.230s]       |     [01;36m[K^~~~~~~~[m[K
+[7.231s] [01m[K/usr/include/c++/11/complex:469:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.231s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[7.231s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.231s]       |             [01;36m[K^~~~~[m[K
+[7.231s] In file included from [01m[K/usr/include/c++/11/ccomplex:39[m[K,
+[7.231s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54[m[K,
+[7.234s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.235s] [01m[K/usr/include/c++/11/complex:475:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(const _Tp&, const std::complex<_Tp>&)[m[K’
+[7.235s]   475 |     [01;36m[Koperator[m[K==(const _Tp& __x, const complex<_Tp>& __y)
+[7.235s]       |     [01;36m[K^~~~~~~~[m[K
+[7.235s] [01m[K/usr/include/c++/11/complex:475:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.239s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[7.240s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.240s]       |             [01;36m[K^~~~~[m[K
+[7.240s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[7.240s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[7.240s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[7.243s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:65[m[K,
+[7.243s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.243s] [01m[K/usr/include/c++/11/bits/std_function.h:718:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)[m[K’
+[7.243s]   718 |     [01;36m[Koperator[m[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+[7.244s]       |     [01;36m[K^~~~~~~~[m[K
+[7.244s] [01m[K/usr/include/c++/11/bits/std_function.h:718:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.244s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’
+[7.244s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.244s]       |             [01;36m[K^~~~~[m[K
+[7.245s] In file included from [01m[K/usr/include/c++/11/functional:59[m[K,
+[7.250s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[7.250s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[7.250s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:65[m[K,
+[7.251s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.251s] [01m[K/usr/include/c++/11/bits/std_function.h:725:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)[m[K’
+[7.251s]   725 |     [01;36m[Koperator[m[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+[7.251s]       |     [01;36m[K^~~~~~~~[m[K
+[7.251s] [01m[K/usr/include/c++/11/bits/std_function.h:725:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.254s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’ and ‘[01m[Kint[m[K’
+[7.254s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.255s]       |             [01;36m[K^~~~~[m[K
+[7.255s] In file included from [01m[K/usr/include/c++/11/unordered_map:47[m[K,
+[7.255s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[7.255s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[7.255s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[7.255s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:65[m[K,
+[7.259s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.259s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2134:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[7.259s]  2134 |     [01;36m[Koperator[m[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[7.259s]       |     [01;36m[K^~~~~~~~[m[K
+[7.260s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2134:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.264s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+[7.264s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.265s]       |             [01;36m[K^~~~~[m[K
+[7.265s] In file included from [01m[K/usr/include/c++/11/unordered_map:47[m[K,
+[7.265s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[7.265s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[7.265s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[7.265s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:65[m[K,
+[7.268s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.268s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[7.270s]  2148 |     [01;36m[Koperator[m[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[7.271s]       |     [01;36m[K^~~~~~~~[m[K
+[7.271s] [01m[K/usr/include/c++/11/bits/unordered_map.h:2148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.271s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+[7.274s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.274s]       |             [01;36m[K^~~~~[m[K
+[7.274s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[7.274s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[7.276s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[7.276s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[7.276s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:65[m[K,
+[7.278s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.280s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1892:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)[m[K’
+[7.280s]  1892 |     [01;36m[Koperator[m[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+[7.280s]       |     [01;36m[K^~~~~~~~[m[K
+[7.280s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1892:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.281s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+[7.282s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.282s]       |             [01;36m[K^~~~~[m[K
+[7.282s] In file included from [01m[K/usr/include/c++/11/deque:67[m[K,
+[7.285s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:68[m[K,
+[7.285s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.285s] [01m[K/usr/include/c++/11/bits/stl_deque.h:2247:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)[m[K’
+[7.285s]  2247 |     [01;36m[Koperator[m[K==(const deque<_Tp, _Alloc>& __x, const deque<_Tp, _Alloc>& __y)
+[7.289s]       |     [01;36m[K^~~~~~~~[m[K
+[7.289s] [01m[K/usr/include/c++/11/bits/stl_deque.h:2247:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.289s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::deque<_Tp, _Alloc>[m[K’
+[7.289s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.290s]       |             [01;36m[K^~~~~[m[K
+[7.290s] In file included from [01m[K/usr/include/c++/11/list:63[m[K,
+[7.290s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:79[m[K,
+[7.290s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.290s] [01m[K/usr/include/c++/11/bits/stl_list.h:2030:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)[m[K’
+[7.291s]  2030 |     [01;36m[Koperator[m[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+[7.292s]       |     [01;36m[K^~~~~~~~[m[K
+[7.292s] [01m[K/usr/include/c++/11/bits/stl_list.h:2030:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.292s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+[7.294s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.296s]       |             [01;36m[K^~~~~[m[K
+[7.296s] In file included from [01m[K/usr/include/c++/11/map:61[m[K,
+[7.296s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:81[m[K,
+[7.297s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.298s] [01m[K/usr/include/c++/11/bits/stl_map.h:1463:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[7.298s]  1463 |     [01;36m[Koperator[m[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+[7.298s]       |     [01;36m[K^~~~~~~~[m[K
+[7.301s] [01m[K/usr/include/c++/11/bits/stl_map.h:1463:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.301s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Allocator>[m[K’
+[7.301s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.304s]       |             [01;36m[K^~~~~[m[K
+[7.304s] In file included from [01m[K/usr/include/c++/11/map:62[m[K,
+[7.304s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:81[m[K,
+[7.304s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.306s] [01m[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[7.306s]  1128 |     [01;36m[Koperator[m[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+[7.306s]       |     [01;36m[K^~~~~~~~[m[K
+[7.309s] [01m[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.309s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>[m[K’
+[7.310s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.310s]       |             [01;36m[K^~~~~[m[K
+[7.310s] In file included from [01m[K/usr/include/c++/11/queue:64[m[K,
+[7.310s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:86[m[K,
+[7.313s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.313s] [01m[K/usr/include/c++/11/bits/stl_queue.h:344:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Seq> bool std::operator==(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)[m[K’
+[7.313s]   344 |     [01;36m[Koperator[m[K==(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)
+[7.313s]       |     [01;36m[K^~~~~~~~[m[K
+[7.315s] [01m[K/usr/include/c++/11/bits/stl_queue.h:344:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.315s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::queue<_Tp, _Seq>[m[K’
+[7.315s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.317s]       |             [01;36m[K^~~~~[m[K
+[7.317s] In file included from [01m[K/usr/include/c++/11/set:61[m[K,
+[7.319s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:87[m[K,
+[7.321s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.321s] [01m[K/usr/include/c++/11/bits/stl_set.h:985:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)[m[K’
+[7.321s]   985 |     [01;36m[Koperator[m[K==(const set<_Key, _Compare, _Alloc>& __x,
+[7.321s]       |     [01;36m[K^~~~~~~~[m[K
+[7.321s] [01m[K/usr/include/c++/11/bits/stl_set.h:985:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.325s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Allocator>[m[K’
+[7.325s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.326s]       |             [01;36m[K^~~~~[m[K
+[7.326s] In file included from [01m[K/usr/include/c++/11/set:62[m[K,
+[7.326s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:87[m[K,
+[7.326s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.326s] [01m[K/usr/include/c++/11/bits/stl_multiset.h:971:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)[m[K’
+[7.328s]   971 |     [01;36m[Koperator[m[K==(const multiset<_Key, _Compare, _Alloc>& __x,
+[7.328s]       |     [01;36m[K^~~~~~~~[m[K
+[7.329s] [01m[K/usr/include/c++/11/bits/stl_multiset.h:971:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.331s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Allocator>[m[K’
+[7.331s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.333s]       |             [01;36m[K^~~~~[m[K
+[7.333s] In file included from [01m[K/usr/include/c++/11/stack:61[m[K,
+[7.334s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:89[m[K,
+[7.334s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.334s] [01m[K/usr/include/c++/11/bits/stl_stack.h:319:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Seq> bool std::operator==(const std::stack<_Tp, _Seq>&, const std::stack<_Tp, _Seq>&)[m[K’
+[7.334s]   319 |     [01;36m[Koperator[m[K==(const stack<_Tp, _Seq>& __x, const stack<_Tp, _Seq>& __y)
+[7.338s]       |     [01;36m[K^~~~~~~~[m[K
+[7.338s] [01m[K/usr/include/c++/11/bits/stl_stack.h:319:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.339s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::stack<_Tp, _Seq>[m[K’
+[7.339s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.339s]       |             [01;36m[K^~~~~[m[K
+[7.339s] In file included from [01m[K/usr/include/c++/11/valarray:603[m[K,
+[7.339s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95[m[K,
+[7.343s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.343s] [01m[K/usr/include/c++/11/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)[m[K’
+[7.344s]   417 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(==, struct std::__equal_to)
+[7.344s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.344s] [01m[K/usr/include/c++/11/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.347s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+[7.347s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.347s]       |             [01;36m[K^~~~~[m[K
+[7.349s] In file included from [01m[K/usr/include/c++/11/valarray:603[m[K,
+[7.349s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95[m[K,
+[7.349s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.352s] [01m[K/usr/include/c++/11/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)[m[K’
+[7.352s]   417 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(==, struct std::__equal_to)
+[7.353s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.355s] [01m[K/usr/include/c++/11/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.355s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+[7.356s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.356s]       |             [01;36m[K^~~~~[m[K
+[7.356s] In file included from [01m[K/usr/include/c++/11/valarray:603[m[K,
+[7.356s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95[m[K,
+[7.356s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.357s] [01m[K/usr/include/c++/11/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+[7.357s]   417 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(==, struct std::__equal_to)
+[7.357s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.357s] [01m[K/usr/include/c++/11/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.357s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kint[m[K’
+[7.362s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.362s]       |             [01;36m[K^~~~~[m[K
+[7.363s] In file included from [01m[K/usr/include/c++/11/valarray:603[m[K,
+[7.363s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95[m[K,
+[7.363s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.363s] [01m[K/usr/include/c++/11/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)[m[K’
+[7.364s]   417 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(==, struct std::__equal_to)
+[7.365s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.368s] [01m[K/usr/include/c++/11/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.368s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+[7.368s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.371s]       |             [01;36m[K^~~~~[m[K
+[7.371s] In file included from [01m[K/usr/include/c++/11/valarray:603[m[K,
+[7.371s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95[m[K,
+[7.373s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.373s] [01m[K/usr/include/c++/11/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+[7.374s]   417 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(==, struct std::__equal_to)
+[7.375s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.376s] [01m[K/usr/include/c++/11/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.376s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kint[m[K’
+[7.376s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.377s]       |             [01;36m[K^~~~~[m[K
+[7.377s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95[m[K,
+[7.377s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.377s] [01m[K/usr/include/c++/11/valarray:1198:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__equal_to, _Tp>::result_type> std::operator==(const std::valarray<_Tp>&, const std::valarray<_Tp>&)[m[K’
+[7.377s]  1198 | [01;36m[K_DEFINE_BINARY_OPERATOR[m[K(==, __equal_to)
+[7.380s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.380s] [01m[K/usr/include/c++/11/valarray:1198:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.382s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::valarray<_Tp>[m[K’
+[7.383s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.384s]       |             [01;36m[K^~~~~[m[K
+[7.385s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95[m[K,
+[7.385s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.385s] [01m[K/usr/include/c++/11/valarray:1198:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__equal_to, _Tp>::result_type> std::operator==(const std::valarray<_Tp>&, const typename std::valarray<_Tp>::value_type&)[m[K’
+[7.388s]  1198 | [01;36m[K_DEFINE_BINARY_OPERATOR[m[K(==, __equal_to)
+[7.388s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.390s] [01m[K/usr/include/c++/11/valarray:1198:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.391s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::valarray<_Tp>[m[K’
+[7.391s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.391s]       |             [01;36m[K^~~~~[m[K
+[7.393s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:95[m[K,
+[7.393s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.393s] [01m[K/usr/include/c++/11/valarray:1198:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__equal_to, _Tp>::result_type> std::operator==(const typename std::valarray<_Tp>::value_type&, const std::valarray<_Tp>&)[m[K’
+[7.394s]  1198 | [01;36m[K_DEFINE_BINARY_OPERATOR[m[K(==, __equal_to)
+[7.394s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.394s] [01m[K/usr/include/c++/11/valarray:1198:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.398s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[7.398s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.398s]       |             [01;36m[K^~~~~[m[K
+[7.398s] In file included from [01m[K/usr/include/c++/11/forward_list:40[m[K,
+[7.399s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:104[m[K,
+[7.399s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.399s] [01m[K/usr/include/c++/11/bits/forward_list.tcc:393:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::forward_list<_Tp, _Alloc>&, const std::forward_list<_Tp, _Alloc>&)[m[K’
+[7.403s]   393 |     [01;36m[Koperator[m[K==(const forward_list<_Tp, _Alloc>& __lx,
+[7.403s]       |     [01;36m[K^~~~~~~~[m[K
+[7.403s] [01m[K/usr/include/c++/11/bits/forward_list.tcc:393:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.404s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::forward_list<_Tp, _Alloc>[m[K’
+[7.404s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.404s]       |             [01;36m[K^~~~~[m[K
+[7.404s] In file included from [01m[K/usr/include/c++/11/random:51[m[K,
+[7.406s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:108[m[K,
+[7.406s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.406s] [01m[K/usr/include/c++/11/bits/random.tcc:1899:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType1> bool std::operator==(const std::normal_distribution<_RealType>&, const std::normal_distribution<_RealType>&)[m[K’
+[7.407s]  1899 |     [01;36m[Koperator[m[K==(const std::normal_distribution<_RealType>& __d1,
+[7.407s]       |     [01;36m[K^~~~~~~~[m[K
+[7.407s] [01m[K/usr/include/c++/11/bits/random.tcc:1899:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.407s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::normal_distribution<_RealType>[m[K’
+[7.408s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.409s]       |             [01;36m[K^~~~~[m[K
+[7.409s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:111[m[K,
+[7.409s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.409s] [01m[K/usr/include/c++/11/scoped_allocator:499:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _OutA1, class _OutA2, class ... _InA> bool std::operator==(const std::scoped_allocator_adaptor<_OutA1, _InA ...>&, const std::scoped_allocator_adaptor<_InnerHead, _InnerTail ...>&)[m[K’
+[7.410s]   499 |     [01;36m[Koperator[m[K==(const scoped_allocator_adaptor<_OutA1, _InA...>& __a,
+[7.410s]       |     [01;36m[K^~~~~~~~[m[K
+[7.410s] [01m[K/usr/include/c++/11/scoped_allocator:499:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.410s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::scoped_allocator_adaptor<_OutA1, _InA ...>[m[K’
+[7.410s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.410s]       |             [01;36m[K^~~~~[m[K
+[7.411s] In file included from [01m[K/usr/include/c++/11/unordered_set:47[m[K,
+[7.411s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:118[m[K,
+[7.411s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.411s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1804:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[7.412s]  1804 |     [01;36m[Koperator[m[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,
+[7.412s]       |     [01;36m[K^~~~~~~~[m[K
+[7.412s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1804:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.412s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+[7.413s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.414s]       |             [01;36m[K^~~~~[m[K
+[7.415s] In file included from [01m[K/usr/include/c++/11/unordered_set:47[m[K,
+[7.415s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:118[m[K,
+[7.415s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.416s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1818:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+[7.416s]  1818 |     [01;36m[Koperator[m[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,
+[7.416s]       |     [01;36m[K^~~~~~~~[m[K
+[7.416s] [01m[K/usr/include/c++/11/bits/unordered_set.h:1818:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.417s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+[7.417s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.417s]       |             [01;36m[K^~~~~[m[K
+[7.417s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:130[m[K,
+[7.417s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.418s] [01m[K/usr/include/c++/11/optional:1045:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const std::optional<_Up>&)[m[K’
+[7.418s]  1045 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)
+[7.418s]       |     [01;36m[K^~~~~~~~[m[K
+[7.419s] [01m[K/usr/include/c++/11/optional:1045:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.419s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[7.419s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.419s]       |             [01;36m[K^~~~~[m[K
+[7.420s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:130[m[K,
+[7.420s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.420s] [01m[K/usr/include/c++/11/optional:1105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(const std::optional<_Tp>&, std::nullopt_t)[m[K’
+[7.421s]  1105 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept
+[7.421s]       |     [01;36m[K^~~~~~~~[m[K
+[7.421s] [01m[K/usr/include/c++/11/optional:1105:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.425s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[7.425s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.426s]       |             [01;36m[K^~~~~[m[K
+[7.426s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:130[m[K,
+[7.426s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.427s] [01m[K/usr/include/c++/11/optional:1116:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(std::nullopt_t, const std::optional<_Tp>&)[m[K’
+[7.427s]  1116 |     [01;36m[Koperator[m[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept
+[7.427s]       |     [01;36m[K^~~~~~~~[m[K
+[7.427s] [01m[K/usr/include/c++/11/optional:1116:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.428s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[7.428s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.428s]       |             [01;36m[K^~~~~[m[K
+[7.428s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:130[m[K,
+[7.429s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.429s] [01m[K/usr/include/c++/11/optional:1173:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const _Up&)[m[K’
+[7.429s]  1173 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const _Up& __rhs)
+[7.429s]       |     [01;36m[K^~~~~~~~[m[K
+[7.430s] [01m[K/usr/include/c++/11/optional:1173:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.430s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[7.430s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.430s]       |             [01;36m[K^~~~~[m[K
+[7.430s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:130[m[K,
+[7.431s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.431s] [01m[K/usr/include/c++/11/optional:1179:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Up, _Tp> std::operator==(const _Up&, const std::optional<_Tp>&)[m[K’
+[7.431s]  1179 |     [01;36m[Koperator[m[K==(const _Up& __lhs, const optional<_Tp>& __rhs)
+[7.431s]       |     [01;36m[K^~~~~~~~[m[K
+[7.432s] [01m[K/usr/include/c++/11/optional:1179:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.432s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+[7.432s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.432s]       |             [01;36m[K^~~~~[m[K
+[7.433s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:133[m[K,
+[7.433s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.433s] [01m[K/usr/include/c++/11/variant:1232:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Types> constexpr bool std::operator==(const std::variant<_Types ...>&, const std::variant<_Types ...>&)[m[K’
+[7.433s]  1232 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(==, equal)
+[7.433s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.434s] [01m[K/usr/include/c++/11/variant:1232:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.434s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::variant<_Types ...>[m[K’
+[7.434s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.434s]       |             [01;36m[K^~~~~[m[K
+[7.435s] In file included from [01m[K/usr/include/c++/11/regex:63[m[K,
+[7.435s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110[m[K,
+[7.435s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.436s] [01m[K/usr/include/c++/11/bits/regex.h:1059:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _BiIter> bool std::__cxx11::operator==(const std::__cxx11::sub_match<_BiIter>&, const std::__cxx11::sub_match<_BiIter>&)[m[K’
+[7.436s]  1059 |     [01;36m[Koperator[m[K==(const sub_match<_BiIter>& __lhs, const sub_match<_BiIter>& __rhs)
+[7.436s]       |     [01;36m[K^~~~~~~~[m[K
+[7.436s] [01m[K/usr/include/c++/11/bits/regex.h:1059:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.437s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::sub_match<_BiIter>[m[K’
+[7.437s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.437s]       |             [01;36m[K^~~~~[m[K
+[7.437s] In file included from [01m[K/usr/include/c++/11/regex:63[m[K,
+[7.438s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110[m[K,
+[7.438s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.438s] [01m[K/usr/include/c++/11/bits/regex.h:1155:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Bi_iter, class _Ch_traits, class _Ch_alloc> bool std::__cxx11::operator==(std::__cxx11::__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>&, const std::__cxx11::sub_match<_BiIter>&)[m[K’
+[7.438s]  1155 |     [01;36m[Koperator[m[K==(const __sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>& __lhs,
+[7.439s]       |     [01;36m[K^~~~~~~~[m[K
+[7.439s] [01m[K/usr/include/c++/11/bits/regex.h:1155:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.439s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::sub_match<_BiIter>[m[K’ and ‘[01m[Kint[m[K’
+[7.439s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.440s]       |             [01;36m[K^~~~~[m[K
+[7.440s] In file included from [01m[K/usr/include/c++/11/regex:63[m[K,
+[7.440s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110[m[K,
+[7.440s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.441s] [01m[K/usr/include/c++/11/bits/regex.h:1230:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Bi_iter, class _Ch_traits, class _Ch_alloc> bool std::__cxx11::operator==(const std::__cxx11::sub_match<_BiIter>&, std::__cxx11::__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>&)[m[K’
+[7.441s]  1230 |     [01;36m[Koperator[m[K==(const sub_match<_Bi_iter>& __lhs,
+[7.441s]       |     [01;36m[K^~~~~~~~[m[K
+[7.442s] [01m[K/usr/include/c++/11/bits/regex.h:1230:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.442s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::sub_match<_BiIter>[m[K’
+[7.442s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.442s]       |             [01;36m[K^~~~~[m[K
+[7.442s] In file included from [01m[K/usr/include/c++/11/regex:63[m[K,
+[7.443s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110[m[K,
+[7.443s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.443s] [01m[K/usr/include/c++/11/bits/regex.h:1322:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Bi_iter> bool std::__cxx11::operator==(const typename std::iterator_traits<_Iter>::value_type*, const std::__cxx11::sub_match<_BiIter>&)[m[K’
+[7.443s]  1322 |     [01;36m[Koperator[m[K==(typename iterator_traits<_Bi_iter>::value_type const* __lhs,
+[7.443s]       |     [01;36m[K^~~~~~~~[m[K
+[7.444s] [01m[K/usr/include/c++/11/bits/regex.h:1322:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.444s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::sub_match<_BiIter>[m[K’ and ‘[01m[Kint[m[K’
+[7.444s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.444s]       |             [01;36m[K^~~~~[m[K
+[7.445s] In file included from [01m[K/usr/include/c++/11/regex:63[m[K,
+[7.445s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110[m[K,
+[7.445s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.446s] [01m[K/usr/include/c++/11/bits/regex.h:1397:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Bi_iter> bool std::__cxx11::operator==(const std::__cxx11::sub_match<_BiIter>&, const typename std::iterator_traits<_Iter>::value_type*)[m[K’
+[7.446s]  1397 |     [01;36m[Koperator[m[K==(const sub_match<_Bi_iter>& __lhs,
+[7.447s]       |     [01;36m[K^~~~~~~~[m[K
+[7.447s] [01m[K/usr/include/c++/11/bits/regex.h:1397:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.447s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::sub_match<_BiIter>[m[K’
+[7.448s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.448s]       |             [01;36m[K^~~~~[m[K
+[7.448s] In file included from [01m[K/usr/include/c++/11/regex:63[m[K,
+[7.449s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110[m[K,
+[7.449s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.449s] [01m[K/usr/include/c++/11/bits/regex.h:1490:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Bi_iter> bool std::__cxx11::operator==(const typename std::iterator_traits<_Iter>::value_type&, const std::__cxx11::sub_match<_BiIter>&)[m[K’
+[7.449s]  1490 |     [01;36m[Koperator[m[K==(typename iterator_traits<_Bi_iter>::value_type const& __lhs,
+[7.450s]       |     [01;36m[K^~~~~~~~[m[K
+[7.450s] [01m[K/usr/include/c++/11/bits/regex.h:1490:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.450s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::sub_match<_BiIter>[m[K’ and ‘[01m[Kint[m[K’
+[7.450s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.450s]       |             [01;36m[K^~~~~[m[K
+[7.450s] In file included from [01m[K/usr/include/c++/11/regex:63[m[K,
+[7.451s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110[m[K,
+[7.451s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.451s] [01m[K/usr/include/c++/11/bits/regex.h:1569:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Bi_iter> bool std::__cxx11::operator==(const std::__cxx11::sub_match<_BiIter>&, const typename std::iterator_traits<_Iter>::value_type&)[m[K’
+[7.452s]  1569 |     [01;36m[Koperator[m[K==(const sub_match<_Bi_iter>& __lhs,
+[7.452s]       |     [01;36m[K^~~~~~~~[m[K
+[7.452s] [01m[K/usr/include/c++/11/bits/regex.h:1569:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.452s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::sub_match<_BiIter>[m[K’
+[7.453s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.453s]       |             [01;36m[K^~~~~[m[K
+[7.453s] In file included from [01m[K/usr/include/c++/11/regex:63[m[K,
+[7.453s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:110[m[K,
+[7.453s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.454s] [01m[K/usr/include/c++/11/bits/regex.h:2125:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Bi_iter, class _Alloc> bool std::__cxx11::operator==(const std::__cxx11::match_results<_BiIter, _Alloc>&, const std::__cxx11::match_results<_BiIter, _Alloc>&)[m[K’
+[7.454s]  2125 |     [01;36m[Koperator[m[K==(const match_results<_Bi_iter, _Alloc>& __m1,
+[7.454s]       |     [01;36m[K^~~~~~~~[m[K
+[7.454s] [01m[K/usr/include/c++/11/bits/regex.h:2125:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.455s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:15:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::match_results<_BiIter, _Alloc>[m[K’
+[7.455s]    15 |   if(msg == [01;36m[K'FWD'[m[K)
+[7.455s]       |             [01;36m[K^~~~~[m[K
+[7.455s] In file included from [01m[K/usr/include/c++/11/memory:64[m[K,
+[7.456s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.456s] [01m[K/usr/include/c++/11/bits/allocator.h:204:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::allocator<char>&, const std::allocator<char>&)[m[K’
+[7.456s]   204 |       [01;36m[Koperator[m[K==(const allocator&, const allocator&) _GLIBCXX_NOTHROW
+[7.456s]       |       [01;36m[K^~~~~~~~[m[K
+[7.457s] [01m[K/usr/include/c++/11/bits/allocator.h:204:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::allocator<char>&[m[K’
+[7.457s]   204 |       operator==([01;36m[Kconst allocator&[m[K, const allocator&) _GLIBCXX_NOTHROW
+[7.457s]       |                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[7.458s] In file included from [01m[K/usr/include/c++/11/bits/ios_base.h:46[m[K,
+[7.458s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[7.458s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[7.458s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[7.459s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[7.459s]                  from [01m[K/usr/include/c++/11/ccomplex:39[m[K,
+[7.459s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54[m[K,
+[7.459s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.460s] [01m[K/usr/include/c++/11/system_error:362:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_code&)[m[K’
+[7.460s]   362 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_code& __rhs) noexcept
+[7.460s]       |   [01;36m[K^~~~~~~~[m[K
+[7.460s] [01m[K/usr/include/c++/11/system_error:362:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[7.461s]   362 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_code& __rhs) noexcept
+[7.461s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[7.461s] [01m[K/usr/include/c++/11/system_error:368:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_condition&)[m[K’
+[7.462s]   368 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_condition& __rhs) noexcept
+[7.462s]       |   [01;36m[K^~~~~~~~[m[K
+[7.462s] [01m[K/usr/include/c++/11/system_error:368:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[7.462s]   368 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_condition& __rhs) noexcept
+[7.462s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[7.462s] [01m[K/usr/include/c++/11/system_error:376:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_condition&)[m[K’
+[7.463s]   376 |   [01;36m[Koperator[m[K==(const error_condition& __lhs,
+[7.463s]       |   [01;36m[K^~~~~~~~[m[K
+[7.463s] [01m[K/usr/include/c++/11/system_error:376:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[7.463s]   376 |   operator==([01;36m[Kconst error_condition& __lhs[m[K,
+[7.463s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[7.464s] [01m[K/usr/include/c++/11/system_error:408:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_code&)[m[K’
+[7.464s]   408 |   [01;36m[Koperator[m[K==(const error_condition& __lhs, const error_code& __rhs) noexcept
+[7.465s]       |   [01;36m[K^~~~~~~~[m[K
+[7.465s] [01m[K/usr/include/c++/11/system_error:408:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[7.466s]   408 |   operator==([01;36m[Kconst error_condition& __lhs[m[K, const error_code& __rhs) noexcept
+[7.466s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[7.466s] In file included from [01m[K/usr/include/c++/11/future:48[m[K,
+[7.469s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:105[m[K,
+[7.469s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.469s] [01m[K/usr/include/c++/11/bits/std_thread.h:287:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(std::thread::id, std::thread::id)[m[K’
+[7.469s]   287 |   [01;36m[Koperator[m[K==(thread::id __x, thread::id __y) noexcept
+[7.469s]       |   [01;36m[K^~~~~~~~[m[K
+[7.470s] [01m[K/usr/include/c++/11/bits/std_thread.h:287:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kstd::thread::id[m[K’
+[7.470s]   287 |   operator==([01;36m[Kthread::id __x[m[K, thread::id __y) noexcept
+[7.470s]       |              [01;36m[K~~~~~~~~~~~^~~[m[K
+[7.471s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:133[m[K,
+[7.471s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.472s] [01m[K/usr/include/c++/11/variant:1239:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr bool std::operator==(std::monostate, std::monostate)[m[K’
+[7.472s]  1239 |   constexpr bool [01;36m[Koperator[m[K==(monostate, monostate) noexcept { return true; }
+[7.473s]       |                  [01;36m[K^~~~~~~~[m[K
+[7.473s] [01m[K/usr/include/c++/11/variant:1239:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kstd::monostate[m[K’
+[7.473s]  1239 |   constexpr bool operator==([01;36m[Kmonostate[m[K, monostate) noexcept { return true; }
+[7.473s]       |                             [01;36m[K^~~~~~~~~[m[K
+[7.548s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const String&) const[m[K’:
+[7.548s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:38:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ was not declared in this scope
+[7.548s]    38 |       [01;31m[Kstring[m[K msg = msg.data();
+[7.548s]       |       [01;31m[K^~~~~~[m[K
+[7.548s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:38:7:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[7.551s] In file included from [01m[K/usr/include/c++/11/iosfwd:39[m[K,
+[7.551s]                  from [01m[K/usr/include/c++/11/bits/shared_ptr.h:52[m[K,
+[7.551s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.552s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:4[m[K:
+[7.552s] [01m[K/usr/include/c++/11/bits/stringfwd.h:79:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’
+[7.552s]    79 |   typedef basic_string<char>    [01;36m[Kstring[m[K;
+[7.552s]       |                                 [01;36m[K^~~~~~[m[K
+[7.552s] In file included from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:5[m[K:
+[7.555s] [01m[K/usr/include/c++/11/string:67:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::pmr::string[m[K’
+[7.555s]    67 |     using [01;36m[Kstring[m[K    = basic_string<char>;
+[7.556s]       |           [01;36m[K^~~~~~[m[K
+[7.556s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:39:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::cout[m[K’?
+[7.556s]    39 |       [01;31m[Kcout[m[K<<msg;
+[7.556s]       |       [01;31m[K^~~~[m[K
+[7.556s]       |       [32m[Kstd::cout[m[K
+[7.559s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:75[m[K,
+[7.559s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:6[m[K:
+[7.559s] [01m[K/usr/include/c++/11/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+[7.560s]    61 |   extern ostream [01;36m[Kcout[m[K;          /// Linked to standard output
+[7.560s]       |                  [01;36m[K^~~~[m[K
+[7.560s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:40:12:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kmsg[m[K’ from ‘[01m[Kconst String[m[K’ {aka ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[7.562s]    40 |       head([01;31m[Kmsg[m[K);
+[7.562s]       |            [01;31m[K^~~[m[K
+[7.563s]       |            [01;31m[K|[m[K
+[7.563s]       |            [01;31m[Kconst String {aka const std_msgs::msg::String_<std::allocator<void> >}[m[K
+[7.563s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.566s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:48:62:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::shared_ptr<MinimalSubscriber>[m[K’ to non-scalar type ‘[01m[KMinimalSubscriber[m[K’ requested
+[7.567s]    48 |   MinimalSubscriber sub = [01;31m[Kstd::make_shared<MinimalSubscriber>()[m[K;
+[7.567s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.567s] [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:49:15:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(MinimalSubscriber&)[m[K’
+[7.568s]    49 |   [01;31m[Krclcpp::spin(sub)[m[K;
+[7.568s]       |   [01;31m[K~~~~~~~~~~~~^~~~~[m[K
+[7.569s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.570s]                  from [01m[K/home/toshie/Desktop/project/src/motor/src/main.cpp:8[m[K:
+[7.570s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[7.570s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[7.571s]       | [01;36m[K^~~~[m[K
+[7.573s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMinimalSubscriber[m[K’ to ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[7.573s]    45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[7.574s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[7.574s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[7.574s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[7.574s]       | [01;36m[K^~~~[m[K
+[7.577s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMinimalSubscriber[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+[7.578s]    49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[7.578s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[13.857s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/main.cpp.o] Error 1
+[13.857s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[13.859s] gmake: *** [Makefile:146: all] Error 2
+[13.872s] Invoked command in '/home/toshie/Desktop/project/build/motor' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/project/build/motor -- -j2 -l2

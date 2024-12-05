@@ -1,0 +1,253 @@
+[0.000000] (-) TimerEvent: {}
+[0.000980] (-) JobUnselected: {'identifier': 'interface'}
+[0.001579] (-) JobUnselected: {'identifier': 'main'}
+[0.001678] (-) JobUnselected: {'identifier': 'motor'}
+[0.001716] (-) JobUnselected: {'identifier': 'sensor'}
+[0.001758] (test) JobQueued: {'identifier': 'test', 'dependencies': OrderedDict([('interface', '/home/toshie/Desktop/maze_bot/install/interface')])}
+[0.001809] (test) JobStarted: {'identifier': 'test'}
+[0.099511] (-) TimerEvent: {}
+[0.103871] (test) JobProgress: {'identifier': 'test', 'progress': 'cmake'}
+[0.138149] (test) JobProgress: {'identifier': 'test', 'progress': 'build'}
+[0.140783] (test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toshie/Desktop/maze_bot/build/test', '--', '-j2', '-l2'], 'cwd': '/home/toshie/Desktop/maze_bot/build/test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'toshie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/toshie/Desktop/maze_bot/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/toshie'), ('OLDPWD', '/home/toshie/Desktop/maze_bot/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1480'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/toshie/Desktop/maze_bot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toshie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'toshie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/batoonie:@/tmp/.ICE-unix/1447,unix/batoonie:/tmp/.ICE-unix/1447'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a60743b9_3057_4845_b1b7_ef3c56c6a75e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2RVBY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/toshie/Desktop/maze_bot/install/motor:/home/toshie/Desktop/maze_bot/install/main:/home/toshie/Desktop/maze_bot/install/interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/toshie/Desktop/maze_bot/build/test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toshie/Desktop/maze_bot/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/toshie/Desktop/maze_bot/install/interface:/home/toshie/Desktop/maze_bot/install/motor:/home/toshie/Desktop/maze_bot/install/main:/opt/ros/humble')]), 'shell': False}
+[0.199655] (-) TimerEvent: {}
+[0.249206] (test) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.257764] (test) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.279925] (test) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/sub.cpp.o\x1b[0m\n'}
+[0.289420] (test) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[0.299984] (-) TimerEvent: {}
+[0.400398] (-) TimerEvent: {}
+[0.501124] (-) TimerEvent: {}
+[0.601840] (-) TimerEvent: {}
+[0.702508] (-) TimerEvent: {}
+[0.803087] (-) TimerEvent: {}
+[0.903710] (-) TimerEvent: {}
+[1.004567] (-) TimerEvent: {}
+[1.105273] (-) TimerEvent: {}
+[1.206065] (-) TimerEvent: {}
+[1.306866] (-) TimerEvent: {}
+[1.407516] (-) TimerEvent: {}
+[1.508237] (-) TimerEvent: {}
+[1.608868] (-) TimerEvent: {}
+[1.710043] (-) TimerEvent: {}
+[1.810483] (-) TimerEvent: {}
+[1.911012] (-) TimerEvent: {}
+[2.011623] (-) TimerEvent: {}
+[2.112089] (-) TimerEvent: {}
+[2.212563] (-) TimerEvent: {}
+[2.313283] (-) TimerEvent: {}
+[2.413772] (-) TimerEvent: {}
+[2.514497] (-) TimerEvent: {}
+[2.615037] (-) TimerEvent: {}
+[2.715527] (-) TimerEvent: {}
+[2.816185] (-) TimerEvent: {}
+[2.916791] (-) TimerEvent: {}
+[3.017297] (-) TimerEvent: {}
+[3.118018] (-) TimerEvent: {}
+[3.218670] (-) TimerEvent: {}
+[3.319371] (-) TimerEvent: {}
+[3.420038] (-) TimerEvent: {}
+[3.520701] (-) TimerEvent: {}
+[3.621199] (-) TimerEvent: {}
+[3.721806] (-) TimerEvent: {}
+[3.822431] (-) TimerEvent: {}
+[3.922899] (-) TimerEvent: {}
+[4.023555] (-) TimerEvent: {}
+[4.124040] (-) TimerEvent: {}
+[4.224684] (-) TimerEvent: {}
+[4.325203] (-) TimerEvent: {}
+[4.425835] (-) TimerEvent: {}
+[4.526456] (-) TimerEvent: {}
+[4.627022] (-) TimerEvent: {}
+[4.727660] (-) TimerEvent: {}
+[4.828169] (-) TimerEvent: {}
+[4.928807] (-) TimerEvent: {}
+[5.029445] (-) TimerEvent: {}
+[5.130058] (-) TimerEvent: {}
+[5.230672] (-) TimerEvent: {}
+[5.331295] (-) TimerEvent: {}
+[5.431966] (-) TimerEvent: {}
+[5.532583] (-) TimerEvent: {}
+[5.633031] (-) TimerEvent: {}
+[5.733470] (-) TimerEvent: {}
+[5.834099] (-) TimerEvent: {}
+[5.934578] (-) TimerEvent: {}
+[6.035240] (-) TimerEvent: {}
+[6.135714] (-) TimerEvent: {}
+[6.236345] (-) TimerEvent: {}
+[6.336996] (-) TimerEvent: {}
+[6.437613] (-) TimerEvent: {}
+[6.538098] (-) TimerEvent: {}
+[6.638743] (-) TimerEvent: {}
+[6.739358] (-) TimerEvent: {}
+[6.839842] (-) TimerEvent: {}
+[6.940505] (-) TimerEvent: {}
+[7.041141] (-) TimerEvent: {}
+[7.141765] (-) TimerEvent: {}
+[7.242290] (-) TimerEvent: {}
+[7.342923] (-) TimerEvent: {}
+[7.443409] (-) TimerEvent: {}
+[7.544057] (-) TimerEvent: {}
+[7.644699] (-) TimerEvent: {}
+[7.745215] (-) TimerEvent: {}
+[7.845696] (-) TimerEvent: {}
+[7.946337] (-) TimerEvent: {}
+[8.046818] (-) TimerEvent: {}
+[8.147486] (-) TimerEvent: {}
+[8.248096] (-) TimerEvent: {}
+[8.348990] (-) TimerEvent: {}
+[8.449599] (-) TimerEvent: {}
+[8.550292] (-) TimerEvent: {}
+[8.650776] (-) TimerEvent: {}
+[8.751515] (-) TimerEvent: {}
+[8.852031] (-) TimerEvent: {}
+[8.952716] (-) TimerEvent: {}
+[9.053410] (-) TimerEvent: {}
+[9.153894] (-) TimerEvent: {}
+[9.254554] (-) TimerEvent: {}
+[9.355169] (-) TimerEvent: {}
+[9.455626] (-) TimerEvent: {}
+[9.556236] (-) TimerEvent: {}
+[9.656805] (-) TimerEvent: {}
+[9.757389] (-) TimerEvent: {}
+[9.858016] (-) TimerEvent: {}
+[9.958474] (-) TimerEvent: {}
+[10.059014] (-) TimerEvent: {}
+[10.159676] (-) TimerEvent: {}
+[10.260300] (-) TimerEvent: {}
+[10.360983] (-) TimerEvent: {}
+[10.461624] (-) TimerEvent: {}
+[10.562146] (-) TimerEvent: {}
+[10.662633] (-) TimerEvent: {}
+[10.763139] (-) TimerEvent: {}
+[10.863727] (-) TimerEvent: {}
+[10.964308] (-) TimerEvent: {}
+[11.064923] (-) TimerEvent: {}
+[11.165571] (-) TimerEvent: {}
+[11.266052] (-) TimerEvent: {}
+[11.366684] (-) TimerEvent: {}
+[11.467210] (-) TimerEvent: {}
+[11.567830] (-) TimerEvent: {}
+[11.668357] (-) TimerEvent: {}
+[11.769171] (-) TimerEvent: {}
+[11.869815] (-) TimerEvent: {}
+[11.970492] (-) TimerEvent: {}
+[12.071181] (-) TimerEvent: {}
+[12.171822] (-) TimerEvent: {}
+[12.272530] (-) TimerEvent: {}
+[12.373244] (-) TimerEvent: {}
+[12.473908] (-) TimerEvent: {}
+[12.574624] (-) TimerEvent: {}
+[12.675313] (-) TimerEvent: {}
+[12.776030] (-) TimerEvent: {}
+[12.876723] (-) TimerEvent: {}
+[12.977449] (-) TimerEvent: {}
+[13.078079] (-) TimerEvent: {}
+[13.178749] (-) TimerEvent: {}
+[13.279449] (-) TimerEvent: {}
+[13.380097] (-) TimerEvent: {}
+[13.480759] (-) TimerEvent: {}
+[13.581496] (-) TimerEvent: {}
+[13.682173] (-) TimerEvent: {}
+[13.782669] (-) TimerEvent: {}
+[13.883362] (-) TimerEvent: {}
+[13.984061] (-) TimerEvent: {}
+[14.087058] (-) TimerEvent: {}
+[14.187628] (-) TimerEvent: {}
+[14.288291] (-) TimerEvent: {}
+[14.389002] (-) TimerEvent: {}
+[14.489645] (-) TimerEvent: {}
+[14.590331] (-) TimerEvent: {}
+[14.690852] (-) TimerEvent: {}
+[14.791532] (-) TimerEvent: {}
+[14.892211] (-) TimerEvent: {}
+[14.992906] (-) TimerEvent: {}
+[15.093630] (-) TimerEvent: {}
+[15.194171] (-) TimerEvent: {}
+[15.294858] (-) TimerEvent: {}
+[15.395543] (-) TimerEvent: {}
+[15.496217] (-) TimerEvent: {}
+[15.597072] (-) TimerEvent: {}
+[15.697714] (-) TimerEvent: {}
+[15.798214] (-) TimerEvent: {}
+[15.898722] (-) TimerEvent: {}
+[15.999261] (-) TimerEvent: {}
+[16.099756] (-) TimerEvent: {}
+[16.200283] (-) TimerEvent: {}
+[16.300783] (-) TimerEvent: {}
+[16.401965] (-) TimerEvent: {}
+[16.502592] (-) TimerEvent: {}
+[16.603244] (-) TimerEvent: {}
+[16.703759] (-) TimerEvent: {}
+[16.804296] (-) TimerEvent: {}
+[16.904799] (-) TimerEvent: {}
+[17.005502] (-) TimerEvent: {}
+[17.106022] (-) TimerEvent: {}
+[17.206688] (-) TimerEvent: {}
+[17.307225] (-) TimerEvent: {}
+[17.407926] (-) TimerEvent: {}
+[17.508619] (-) TimerEvent: {}
+[17.609143] (-) TimerEvent: {}
+[17.709813] (-) TimerEvent: {}
+[17.810502] (-) TimerEvent: {}
+[17.911160] (-) TimerEvent: {}
+[18.011796] (-) TimerEvent: {}
+[18.112542] (-) TimerEvent: {}
+[18.213222] (-) TimerEvent: {}
+[18.313926] (-) TimerEvent: {}
+[18.414425] (-) TimerEvent: {}
+[18.515073] (-) TimerEvent: {}
+[18.615706] (-) TimerEvent: {}
+[18.716262] (-) TimerEvent: {}
+[18.817096] (-) TimerEvent: {}
+[18.917559] (-) TimerEvent: {}
+[19.018080] (-) TimerEvent: {}
+[19.118690] (-) TimerEvent: {}
+[19.219211] (-) TimerEvent: {}
+[19.319861] (-) TimerEvent: {}
+[19.420507] (-) TimerEvent: {}
+[19.521190] (-) TimerEvent: {}
+[19.621863] (-) TimerEvent: {}
+[19.722659] (-) TimerEvent: {}
+[19.823318] (-) TimerEvent: {}
+[19.924020] (-) TimerEvent: {}
+[20.024676] (-) TimerEvent: {}
+[20.036348] (test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[20.124828] (-) TimerEvent: {}
+[20.225363] (-) TimerEvent: {}
+[20.326049] (-) TimerEvent: {}
+[20.427363] (-) TimerEvent: {}
+[20.528006] (-) TimerEvent: {}
+[20.628524] (-) TimerEvent: {}
+[20.729143] (-) TimerEvent: {}
+[20.829666] (-) TimerEvent: {}
+[20.930147] (-) TimerEvent: {}
+[21.012997] (test) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[21.030287] (-) TimerEvent: {}
+[21.036508] (test) CommandEnded: {'returncode': 0}
+[21.094283] (test) JobProgress: {'identifier': 'test', 'progress': 'install'}
+[21.111977] (test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/toshie/Desktop/maze_bot/build/test'], 'cwd': '/home/toshie/Desktop/maze_bot/build/test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'toshie'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/toshie/Desktop/maze_bot/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/toshie'), ('OLDPWD', '/home/toshie/Desktop/maze_bot/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1480'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/toshie/Desktop/maze_bot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'toshie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'toshie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/batoonie:@/tmp/.ICE-unix/1447,unix/batoonie:/tmp/.ICE-unix/1447'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a60743b9_3057_4845_b1b7_ef3c56c6a75e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2RVBY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/toshie/Desktop/maze_bot/install/motor:/home/toshie/Desktop/maze_bot/install/main:/home/toshie/Desktop/maze_bot/install/interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/toshie/Desktop/maze_bot/build/test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/toshie/Desktop/maze_bot/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/toshie/Desktop/maze_bot/install/interface:/home/toshie/Desktop/maze_bot/install/motor:/home/toshie/Desktop/maze_bot/install/main:/opt/ros/humble')]), 'shell': False}
+[21.128065] (test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.128546] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/lib/test/talker\n'}
+[21.130427] (-) TimerEvent: {}
+[21.131159] (test) StdoutLine: {'line': b'-- Set runtime path of "/home/toshie/Desktop/maze_bot/install/test/lib/test/talker" to ""\n'}
+[21.131620] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/lib/test/listener\n'}
+[21.137693] (test) StdoutLine: {'line': b'-- Set runtime path of "/home/toshie/Desktop/maze_bot/install/test/lib/test/listener" to ""\n'}
+[21.138195] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/ament_index/resource_index/package_run_dependencies/test\n'}
+[21.151010] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/ament_index/resource_index/parent_prefix_path/test\n'}
+[21.151642] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/environment/ament_prefix_path.sh\n'}
+[21.152138] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/environment/ament_prefix_path.dsv\n'}
+[21.161361] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/environment/path.sh\n'}
+[21.161851] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/environment/path.dsv\n'}
+[21.162377] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/local_setup.bash\n'}
+[21.162984] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/local_setup.sh\n'}
+[21.163620] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/local_setup.zsh\n'}
+[21.164229] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/local_setup.dsv\n'}
+[21.164856] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/package.dsv\n'}
+[21.165707] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/ament_index/resource_index/packages/test\n'}
+[21.166176] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/cmake/testConfig.cmake\n'}
+[21.166653] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/cmake/testConfig-version.cmake\n'}
+[21.167236] (test) StdoutLine: {'line': b'-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/package.xml\n'}
+[21.170732] (test) CommandEnded: {'returncode': 0}
+[21.230573] (-) TimerEvent: {}
+[21.287125] (test) JobEnded: {'identifier': 'test', 'rc': 0}
+[21.288714] (-) EventReactorShutdown: {}

@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sub.cpp.o[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/lib/test/talker
+-- Set runtime path of "/home/toshie/Desktop/maze_bot/install/test/lib/test/talker" to ""
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/lib/test/listener
+-- Set runtime path of "/home/toshie/Desktop/maze_bot/install/test/lib/test/listener" to ""
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/ament_index/resource_index/package_run_dependencies/test
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/ament_index/resource_index/parent_prefix_path/test
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/environment/ament_prefix_path.sh
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/environment/ament_prefix_path.dsv
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/environment/path.sh
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/environment/path.dsv
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/local_setup.bash
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/local_setup.sh
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/local_setup.zsh
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/local_setup.dsv
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/package.dsv
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/ament_index/resource_index/packages/test
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/cmake/testConfig.cmake
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/cmake/testConfig-version.cmake
+-- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/package.xml

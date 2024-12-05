@@ -1,0 +1,30 @@
+[0.144s] Invoking command in '/home/toshie/Desktop/maze_bot/build/test': CMAKE_PREFIX_PATH=/home/toshie/Desktop/maze_bot/install/interface:/home/toshie/Desktop/maze_bot/install/motor:/home/toshie/Desktop/maze_bot/install/main:/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/maze_bot/build/test -- -j2 -l2
+[0.248s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.256s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.278s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sub.cpp.o[0m
+[0.288s] [ 75%] Built target talker
+[20.035s] [100%] [32m[1mLinking CXX executable listener[0m
+[21.012s] [100%] Built target listener
+[21.035s] Invoked command in '/home/toshie/Desktop/maze_bot/build/test' returned '0': CMAKE_PREFIX_PATH=/home/toshie/Desktop/maze_bot/install/interface:/home/toshie/Desktop/maze_bot/install/motor:/home/toshie/Desktop/maze_bot/install/main:/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/maze_bot/build/test -- -j2 -l2
+[21.113s] Invoking command in '/home/toshie/Desktop/maze_bot/build/test': CMAKE_PREFIX_PATH=/home/toshie/Desktop/maze_bot/install/interface:/home/toshie/Desktop/maze_bot/install/motor:/home/toshie/Desktop/maze_bot/install/main:/opt/ros/humble /usr/bin/cmake --install /home/toshie/Desktop/maze_bot/build/test
+[21.126s] -- Install configuration: ""
+[21.127s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/lib/test/talker
+[21.130s] -- Set runtime path of "/home/toshie/Desktop/maze_bot/install/test/lib/test/talker" to ""
+[21.130s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/lib/test/listener
+[21.136s] -- Set runtime path of "/home/toshie/Desktop/maze_bot/install/test/lib/test/listener" to ""
+[21.137s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[21.149s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[21.150s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/environment/ament_prefix_path.sh
+[21.151s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/environment/ament_prefix_path.dsv
+[21.160s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/environment/path.sh
+[21.160s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/environment/path.dsv
+[21.161s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/local_setup.bash
+[21.161s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/local_setup.sh
+[21.162s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/local_setup.zsh
+[21.163s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/local_setup.dsv
+[21.163s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/package.dsv
+[21.164s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/ament_index/resource_index/packages/test
+[21.165s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/cmake/testConfig.cmake
+[21.165s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/cmake/testConfig-version.cmake
+[21.166s] -- Installing: /home/toshie/Desktop/maze_bot/install/test/share/test/package.xml
+[21.170s] Invoked command in '/home/toshie/Desktop/maze_bot/build/test' returned '0': CMAKE_PREFIX_PATH=/home/toshie/Desktop/maze_bot/install/interface:/home/toshie/Desktop/maze_bot/install/motor:/home/toshie/Desktop/maze_bot/install/main:/opt/ros/humble /usr/bin/cmake --install /home/toshie/Desktop/maze_bot/build/test

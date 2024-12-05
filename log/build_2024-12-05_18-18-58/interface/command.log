@@ -1,0 +1,6 @@
+Invoking command in '/home/toshie/Desktop/maze_bot/build/interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/toshie/Desktop/maze_bot/src/interface -DCMAKE_INSTALL_PREFIX=/home/toshie/Desktop/maze_bot/install/interface
+Invoked command in '/home/toshie/Desktop/maze_bot/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/toshie/Desktop/maze_bot/src/interface -DCMAKE_INSTALL_PREFIX=/home/toshie/Desktop/maze_bot/install/interface
+Invoking command in '/home/toshie/Desktop/maze_bot/build/interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/maze_bot/build/interface -- -j2 -l2
+Invoked command in '/home/toshie/Desktop/maze_bot/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/toshie/Desktop/maze_bot/build/interface -- -j2 -l2
+Invoking command in '/home/toshie/Desktop/maze_bot/build/interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/toshie/Desktop/maze_bot/build/interface
+Invoked command in '/home/toshie/Desktop/maze_bot/build/interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/toshie/Desktop/maze_bot/build/interface
